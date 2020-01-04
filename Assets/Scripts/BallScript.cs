@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Models;
+using TMPro;
 using UnityEngine;
 
 public class BallScript : MonoBehaviour
@@ -9,11 +11,12 @@ public class BallScript : MonoBehaviour
     public GameObject windZone;
     Rigidbody rb;
     public bool hasBeenDrawn;
+    public TextMeshPro btnText;
+    public Participant participant;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
     }
 
     private void FixedUpdate()
@@ -21,12 +24,6 @@ public class BallScript : MonoBehaviour
         if(inWindZone) {
             rb.AddForce(windZone.GetComponent<WindArea>().direction * windZone.GetComponent<WindArea>().strength);
         }
-    }
-
-    private void OnCollisionEnter(Collision other)
-    {
-
-
     }
 
     private void OnTriggerEnter(Collider coll) {
@@ -46,10 +43,10 @@ public class BallScript : MonoBehaviour
         }
     }
 
-    public void SetForceToZero()
+    public void SetParticipant(Participant p)
     {
-        rb.velocity = Vector3.zero;
-        rb.AddForce(Vector3.zero);
+        participant = p;
+        btnText.text = p.name;
     }
 
 }

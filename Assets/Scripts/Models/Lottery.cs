@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 
 namespace Models
@@ -12,6 +13,7 @@ namespace Models
         public string dateTime;
 
         public string description;
+        [SerializeField]
         public List<Draw> draws;
 
         public string id;
@@ -19,8 +21,10 @@ namespace Models
         public string name;
 
         public int numberOfDraws;
-
+        [SerializeField]
         public List<Participant> participants;
+
+        public int numberOfTickets;
 
         public string userId;
 

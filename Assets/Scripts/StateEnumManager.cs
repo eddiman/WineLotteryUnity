@@ -11,6 +11,11 @@ public class StateEnumManager : MonoBehaviour
     [Serializable] public class StateEvent : UnityEvent <string> {}
     public string currentState;
     public StateEvent defaultState;
+    public StateEvent loadingData;
+    public StateEvent loadingDataFinished;
+    [Header("Draw Ready")]
+    [Header("Lottery States")]
+    public StateEvent drawReady;
     [Header("Ball Making")]
     public StateEvent ballMakingState;
     [Header("Ball Making Finished")]
@@ -39,6 +44,9 @@ public class StateEnumManager : MonoBehaviour
     private string[] States =
     {
         "Default",
+        "LoadingData",
+        "LoadingDataFinished",
+        "DrawReady",
         "BallMaking",
         "BallMakingFinished",
         "DrawStart",
@@ -69,6 +77,15 @@ public class StateEnumManager : MonoBehaviour
                 debugLogState(currentState);
                 switch (currentState)
                 {
+                    case "LoadingData":
+                        loadingData.Invoke(currentState);
+                        break;
+                    case "LoadingDataFinished":
+                        loadingDataFinished.Invoke(currentState);
+                        break;
+                    case "DrawReady":
+                        drawReady.Invoke(currentState);
+                        break;
                     case "BallMaking":
                         ballMakingState.Invoke(currentState);
 

@@ -23,7 +23,7 @@ namespace Models
                 lottery.dateTime = row.updateTime;
                 lottery.description = row.fields.description.stringValue;
                 lottery.id = row.fields.id.stringValue;
-                lottery.name = row.name;
+                lottery.name = row.fields.name.stringValue;
                 lottery.numberOfDraws = row.fields.numberOfDraws.integerValue;
                 lottery.userId = row.fields.userId.stringValue;
 
@@ -58,11 +58,23 @@ namespace Models
 
                 lottery.participants = participants;
                 lottery.draws = draws;
+                lottery.numberOfTickets = GetSumOfTickets(participants);
 
                 lotteryList.Add(lottery);
             }
 
             return lotteryList;
+        }
+
+        private int GetSumOfTickets(List<Participant> list)
+        {
+            int tickets = 0;
+            foreach (var participant in list)
+            {
+                tickets += participant.numberOfTickets;
+            }
+
+            return tickets;
         }
 
     }

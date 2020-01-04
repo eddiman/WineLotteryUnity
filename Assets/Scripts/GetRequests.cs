@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Helpers;
 using Models;
@@ -6,14 +7,21 @@ using Newtonsoft.Json;
 using Proyecto26;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Events;
+
+[Serializable] public class LotteryEvent : UnityEvent<List<Lottery>> {}
 
 public class GetRequests : MonoBehaviour
 {
-    private readonly string basePath = FirebaseSettings.DATABASE_URL;
+    private readonly string BASE_PATH = FirebaseSettings.DATABASE_URL;
+    public UnityEvent LoadingData;
+    public LotteryEvent onLoadFinished;
     private RequestHelper currentRequest;
+    [SerializeField]
     public List<Lottery> LotteryList;
-    private string FIRESTORE_TOKEN = FirebaseSettings.TOKEN;
-    private string API_KEY = "AIzaSyDcFWA4yGr1yotwO0uwkbiWNpWCujWK8d8";
+    private readonly string FIRESTORE_TOKEN = FirebaseSettings.TOKEN;
+    private readonly string API_KEY = FirebaseSettings.API_KEY;
+
 
     private void LogMessage(string title, string message) {
 #if UNITY_EDITOR
@@ -56,21 +64,26 @@ public class GetRequests : MonoBehaviour
     public void GetAllLotteries(){
         // We can add default request headers for all requests
        // RestClient.DefaultRequestHeaders["Authorization"] = "Bearer " + FIRESTORE_TOKEN;
-
-        RequestHelper requestOptions = new RequestHelper {
-            Uri = basePath,
+       LoadingData.Invoke();
+       RequestHelper requestOptions = new RequestHelper {
+            Uri = BASE_PATH,
             Headers = new Dictionary<string, string> {
                 { "Authorization", "Bearer " + FIRESTORE_TOKEN }
             }
         };
-        RestClient.Get(basePath).Then(response => {
+        RestClient.Get(BASE_PATH).Then(response => {
             //EditorUtility.DisplayDialog("Response", response.Text, "Ok");
             LotteryDeserializer l = new LotteryDeserializer();
 
             LotteryList = l.GenerateLotteryList(response.Text);
-
             Debug.Log(LotteryList);
-
+            return LotteryList;
+        }).Then(list =>
+        {
+            if (LotteryList != null)
+            {
+                onLoadFinished.Invoke(LotteryList);
+            }
         }).Catch(err => this.LogMessage("Error", err.Message));
 
         /*
