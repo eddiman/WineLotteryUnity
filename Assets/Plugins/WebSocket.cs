@@ -1,6 +1,6 @@
 ﻿/*
  * unity-websocket-webgl
- * 
+ *
  * @author Jiri Hybek <jiri@hybek.cz>
  * @copyright 2018 Jiri Hybek <jiri@hybek.cz>
  * @license Apache 2.0 - See LICENSE file distributed with this source code.
@@ -145,12 +145,12 @@ namespace HybridWebSocket
 
         /*
          * Return error message based on int code
-         * 
+         *
 
          */
         /// <summary>
         /// Return an exception instance based on int code.
-        /// 
+        ///
         /// Used for resolving JSLIB errors to meaninfull messages.
         /// </summary>
         /// <returns>Instance of an exception.</returns>
@@ -466,7 +466,7 @@ namespace HybridWebSocket
 
             try
             {
-                   
+
                 // Create WebSocket instance
                 this.ws = new WebSocketSharp.WebSocket(url);
 

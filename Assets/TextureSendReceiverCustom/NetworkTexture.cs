@@ -27,7 +27,7 @@ namespace TextureSendReceiverCustom {
 
         private void Start() {
             Application.runInBackground = true;
-            ws = GameObject.Find("WebSocketObject").GetComponent<WebSocketHelper>().getWebSocket();
+            ws = GetComponent<WebSocketHelper>().getWebSocket();
 
             //Start coroutine
             StartCoroutine(initAndWaitForTexture());
@@ -150,7 +150,7 @@ namespace TextureSendReceiverCustom {
             Application.runInBackground = true;
 
             //client = new TcpClient();
-            ws = GameObject.Find("WebSocketObject").GetComponent<WebSocketHelper>().getWebSocket();
+            ws = GetComponent<WebSocketHelper>().getWebSocket();
 
             //Connect to server from another Thread
             Loom.RunAsync(() => {
