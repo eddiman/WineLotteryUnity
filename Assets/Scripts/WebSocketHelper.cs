@@ -6,7 +6,7 @@ using Helpers;
 using UnityEngine;
 
 // Use plugin namespace
-using HybridWebSocket;
+using NativeWebSocket;
 
 public class WebSocketHelper : MonoBehaviour
 {
@@ -19,7 +19,9 @@ public class WebSocketHelper : MonoBehaviour
     private void Awake()
     {
         Debug.Log("start websokcetk");
-        ws = WebSocketFactory.CreateInstance(uri);
+
+        //ws = WebSocketFactory.CreateInstance(uri);
+        ws = new WebSocket(uri);
 
     }
 
@@ -136,7 +138,7 @@ public class WebSocketHelper : MonoBehaviour
         ws.OnOpen += () =>
         {
             Debug.Log("WS connected!");
-            Debug.Log("WS state: " + ws.GetState().ToString());
+            Debug.Log("WS state: " + ws.State.ToString());
 
             ws.Send(msgBytes);
         };

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text;
 using Helpers;
-using HybridWebSocket;
+using NativeWebSocket;
 using TextureSendReceiverCustom.Utils;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,14 +25,26 @@ namespace TextureSendReceiverCustom {
         [Header("Must be the same in sender and receiver")]
         public int messageByteLength = 24;
 
-        private void Start() {
+        private async void Start() {
             Application.runInBackground = true;
             ws = GetComponent<WebSocketHelper>().getWebSocket();
-
+            InvokeRepeating(nameof(SendData), 0f, 0.3f);
+            await ws.Connect();
             //Start coroutine
-            StartCoroutine(initAndWaitForTexture());
+            // StartCoroutine(initAndWaitForTexture());
         }
 
+        private async void SendData()
+        {
+            bool readyToGetFrame = true;
+
+
+            if (ws.State.ToString() != "Open") return ;
+            byte[] imageBytes = EncodeImage();
+
+            await ws.Send(imageBytes);
+            Debug.Log("Sending "  + imageBytes.Length + " bytes per request");
+        }
         public void SetSourceTexture(Texture2D t) {
             source = t;
         }
@@ -57,11 +69,12 @@ namespace TextureSendReceiverCustom {
                 yield return null;
             }
 
+/*
 
             ws.OnOpen += () =>
             {
                 Debug.Log("WS connected in Sender!");
-                Debug.Log("WS state:  in Sender" + ws.GetState().ToString());
+                Debug.Log("WS state:  in Sender" + ws.State.ToString());
             };
 
             // Add OnError event listener
@@ -75,7 +88,7 @@ namespace TextureSendReceiverCustom {
             {
                 Debug.Log("WS closed in Sender with code : " + code.ToString());
             };
-            ws.Connect();
+            ws.Connect();*/
 
             //Start sending coroutine
             StartCoroutine(senderCOR());
@@ -101,14 +114,12 @@ namespace TextureSendReceiverCustom {
 
 
 
-                if (ws.GetState().ToString() != "Open") yield return null;
+                if (ws.State.ToString() != "Open") yield return null;
                 Debug.Log("before asyncsa");
-                Loom.RunAsync(() => {
-                    readyToGetFrame = true;
-                    ws.Send(imageBytes);
-                    Debug.Log("Sending "  + imageBytes.Length + " bytes per request");
 
-                });
+                readyToGetFrame = true;
+                ws.Send(imageBytes);
+                Debug.Log("Sending "  + imageBytes.Length + " bytes per request");
 
                 //Wait until we are ready to get new frame(Until we are done sending data)
                 while (!readyToGetFrame) {
@@ -146,39 +157,56 @@ namespace TextureSendReceiverCustom {
         public int messageByteLength = 24;
 
         // Use this for initialization
-        void Start() {
-            Application.runInBackground = true;
+        async void Start() {
+            //Application.runInBackground = true;
 
             //client = new TcpClient();
-            ws = GetComponent<WebSocketHelper>().getWebSocket();
-
+           // ws = GetComponent<WebSocketHelper>().getWebSocket();
+            ws = new WebSocket(WebSocketSettings.WEBSOCKET_URL);
             //Connect to server from another Thread
-            Loom.RunAsync(() => {
-                // if on desktop
-                // client.Connect(IPAddress.Loopback, port);
-                //client.Connect(IPAddress.Parse(IP), port);
-                ws.OnOpen += () =>
-                {
-                    Debug.Log("WS connected in TextureReceiver!");
-                    Debug.Log("WS state: in TextureReceiver" + ws.GetState().ToString());
+            // if on desktop
+            // client.Connect(IPAddress.Loopback, port);
+            //client.Connect(IPAddress.Parse(IP), port);
+            ws.OnOpen += () =>
+            {
+                Debug.Log("WS connected in TextureReceiver!");
+                Debug.Log("WS state: in TextureReceiver" + ws.State.ToString());
 
 
-                };
-                // Add OnError event listener
-                ws.OnError += (string errMsg) =>
-                {
-                    Debug.Log("WS error in TextureReceiver: " + errMsg);
-                };
+            };
+            // Add OnError event listener
+            ws.OnError += (string errMsg) =>
+            {
+                Debug.Log("WS error in TextureReceiver: " + errMsg);
+            };
 
-                // Add OnClose event listener
-                ws.OnClose += (WebSocketCloseCode code) =>
-                {
-                    Debug.Log("WS closed with code in TextureReceiver: " + code.ToString());
-                };
-                ws.Connect();
+            // Add OnClose event listener
+            ws.OnClose += (WebSocketCloseCode code) =>
+            {
+                Debug.Log("WS closed with code in TextureReceiver: " + code.ToString());
+            };
+            //imageReceiver();
+            ws.OnMessage += (byte[] msg) =>
+            {
 
-            });
-            imageReceiver();
+                Debug.Log("WS received " + msg.Length + " bytes in Receiver: " + (msg));
+                Debug.Log("shawarma");
+
+
+                bool readyToReadAgain = false;
+
+                //Loom.QueueOnMainThread(() => {
+                    loadReceivedImage(msg);
+                    readyToReadAgain = true;
+                //});
+                while (!readyToReadAgain) {
+                    System.Threading.Thread.Sleep(1);
+                }
+
+            };
+            await ws.Connect();
+
+
         }
         void imageReceiver() {
             //While loop in another Thread is fine so we don't block main Unity Thread
@@ -194,24 +222,7 @@ namespace TextureSendReceiverCustom {
         private void GetImgBytes(int size)
         {
 
-            ws.OnMessage += (byte[] msg) =>
-            {
 
-                Debug.Log("WS received " + msg.Length + " bytes in Receiver: " + (msg));
-                Debug.Log("shawarma");
-                Debug.Log(size);
-
-                bool readyToReadAgain = false;
-
-                Loom.QueueOnMainThread(() => {
-                    loadReceivedImage(msg);
-                    readyToReadAgain = true;
-                });
-                while (!readyToReadAgain) {
-                    System.Threading.Thread.Sleep(1);
-                }
-
-            };
 
         }
 

@@ -1,239 +1,129 @@
-﻿/*
- * unity-websocket-webgl
- *
- * @author Jiri Hybek <jiri@hybek.cz>
- * @copyright 2018 Jiri Hybek <jiri@hybek.cz>
- * @license Apache 2.0 - See LICENSE file distributed with this source code.
- */
-
 using System;
+using System.IO;
+using System.Net.WebSockets;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Text;
+
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using UnityEngine;
 using AOT;
 
-namespace HybridWebSocket
+using UnityEngine;
+
+namespace NativeWebSocket
 {
+	public delegate void WebSocketOpenEventHandler();
+	public delegate void WebSocketMessageEventHandler(byte[] data);
+	public delegate void WebSocketErrorEventHandler(string errorMsg);
+	public delegate void WebSocketCloseEventHandler(WebSocketCloseCode closeCode);
 
-    /// <summary>
-    /// Handler for WebSocket Open event.
-    /// </summary>
-    public delegate void WebSocketOpenEventHandler();
+	public enum WebSocketCloseCode
+	{
+		/* Do NOT use NotSet - it's only purpose is to indicate that the close code cannot be parsed. */
+		NotSet = 0,
+		Normal = 1000,
+		Away = 1001,
+		ProtocolError = 1002,
+		UnsupportedData = 1003,
+		Undefined = 1004,
+		NoStatus = 1005,
+		Abnormal = 1006,
+		InvalidData = 1007,
+		PolicyViolation = 1008,
+		TooBig = 1009,
+		MandatoryExtension = 1010,
+		ServerError = 1011,
+		TlsHandshakeFailure = 1015
+	}
 
-    /// <summary>
-    /// Handler for message received from WebSocket.
-    /// </summary>
-    public delegate void WebSocketMessageEventHandler(byte[] data);
+	public enum WebSocketState
+	{
+		Connecting,
+		Open,
+		Closing,
+		Closed
+	}
 
-    /// <summary>
-    /// Handler for an error event received from WebSocket.
-    /// </summary>
-    public delegate void WebSocketErrorEventHandler(string errorMsg);
+	public interface IWebSocket
+	{
+		event WebSocketOpenEventHandler OnOpen;
+		event WebSocketMessageEventHandler OnMessage;
+		event WebSocketErrorEventHandler OnError;
+		event WebSocketCloseEventHandler OnClose;
 
-    /// <summary>
-    /// Handler for WebSocket Close event.
-    /// </summary>
-    public delegate void WebSocketCloseEventHandler(WebSocketCloseCode closeCode);
+		WebSocketState State { get; }
+	}
 
-    /// <summary>
-    /// Enum representing WebSocket connection state
-    /// </summary>
-    public enum WebSocketState
-    {
-        Connecting,
-        Open,
-        Closing,
-        Closed
-    }
 
-    /// <summary>
-    /// Web socket close codes.
-    /// </summary>
-    public enum WebSocketCloseCode
-    {
-        /* Do NOT use NotSet - it's only purpose is to indicate that the close code cannot be parsed. */
-        NotSet = 0,
-        Normal = 1000,
-        Away = 1001,
-        ProtocolError = 1002,
-        UnsupportedData = 1003,
-        Undefined = 1004,
-        NoStatus = 1005,
-        Abnormal = 1006,
-        InvalidData = 1007,
-        PolicyViolation = 1008,
-        TooBig = 1009,
-        MandatoryExtension = 1010,
-        ServerError = 1011,
-        TlsHandshakeFailure = 1015
-    }
+	public static class WebSocketHelpers
+	{
+		public static WebSocketCloseCode ParseCloseCodeEnum(int closeCode)
+		{
 
-    /// <summary>
-    /// WebSocket class interface shared by both native and JSLIB implementation.
-    /// </summary>
-    public interface IWebSocket
-    {
-        /// <summary>
-        /// Open WebSocket connection
-        /// </summary>
-        void Connect();
+			if (WebSocketCloseCode.IsDefined(typeof(WebSocketCloseCode), closeCode))
+			{
+				return (WebSocketCloseCode)closeCode;
+			}
+			else
+			{
+				return WebSocketCloseCode.Undefined;
+			}
 
-        /// <summary>
-        /// Close WebSocket connection with optional status code and reason.
-        /// </summary>
-        /// <param name="code">Close status code.</param>
-        /// <param name="reason">Reason string.</param>
-        void Close(WebSocketCloseCode code = WebSocketCloseCode.Normal, string reason = null);
+		}
 
-        /// <summary>
-        /// Send binary data over the socket.
-        /// </summary>
-        /// <param name="data">Payload data.</param>
-        void Send(byte[] data);
+		public static WebSocketException GetErrorMessageFromCode(int errorCode, Exception inner)
+		{
+			switch (errorCode)
+			{
+				case -1: return new WebSocketUnexpectedException("WebSocket instance not found.", inner);
+				case -2: return new WebSocketInvalidStateException("WebSocket is already connected or in connecting state.", inner);
+				case -3: return new WebSocketInvalidStateException("WebSocket is not connected.", inner);
+				case -4: return new WebSocketInvalidStateException("WebSocket is already closing.", inner);
+				case -5: return new WebSocketInvalidStateException("WebSocket is already closed.", inner);
+				case -6: return new WebSocketInvalidStateException("WebSocket is not in open state.", inner);
+				case -7: return new WebSocketInvalidArgumentException("Cannot close WebSocket. An invalid code was specified or reason is too long.", inner);
+				default: return new WebSocketUnexpectedException("Unknown error.", inner);
+			}
+		}
+	}
 
-        /// <summary>
-        /// Return WebSocket connection state.
-        /// </summary>
-        /// <returns>The state.</returns>
-        WebSocketState GetState();
+	public class WebSocketException : Exception
+	{
+		public WebSocketException() { }
+		public WebSocketException(string message) : base(message) { }
+		public WebSocketException(string message, Exception inner) : base(message, inner) { }
+	}
 
-        /// <summary>
-        /// Occurs when the connection is opened.
-        /// </summary>
-        event WebSocketOpenEventHandler OnOpen;
+	public class WebSocketUnexpectedException : WebSocketException
+	{
+		public WebSocketUnexpectedException() { }
+		public WebSocketUnexpectedException(string message) : base(message) { }
+		public WebSocketUnexpectedException(string message, Exception inner) : base(message, inner) { }
+	}
 
-        /// <summary>
-        /// Occurs when a message is received.
-        /// </summary>
-        event WebSocketMessageEventHandler OnMessage;
+	public class WebSocketInvalidArgumentException : WebSocketException
+	{
+		public WebSocketInvalidArgumentException() { }
+		public WebSocketInvalidArgumentException(string message) : base(message) { }
+		public WebSocketInvalidArgumentException(string message, Exception inner) : base(message, inner) { }
+	}
 
-        /// <summary>
-        /// Occurs when an error was reported from WebSocket.
-        /// </summary>
-        event WebSocketErrorEventHandler OnError;
+	public class WebSocketInvalidStateException : WebSocketException
+	{
+		public WebSocketInvalidStateException() { }
+		public WebSocketInvalidStateException(string message) : base(message) { }
+		public WebSocketInvalidStateException(string message, Exception inner) : base(message, inner) { }
+	}
 
-        /// <summary>
-        /// Occurs when the socked was closed.
-        /// </summary>
-        event WebSocketCloseEventHandler OnClose;
-    }
-
-    /// <summary>
-    /// Various helpers to work mainly with enums and exceptions.
-    /// </summary>
-    public static class WebSocketHelpers
-    {
-
-        /// <summary>
-        /// Safely parse close code enum from int value.
-        /// </summary>
-        /// <returns>The close code enum.</returns>
-        /// <param name="closeCode">Close code as int.</param>
-        public static WebSocketCloseCode ParseCloseCodeEnum(int closeCode)
-        {
-
-            if (WebSocketCloseCode.IsDefined(typeof(WebSocketCloseCode), closeCode))
-            {
-                return (WebSocketCloseCode)closeCode;
-            }
-            else
-            {
-                return WebSocketCloseCode.Undefined;
-            }
-
-        }
-
-        /*
-         * Return error message based on int code
-         *
-
-         */
-        /// <summary>
-        /// Return an exception instance based on int code.
-        ///
-        /// Used for resolving JSLIB errors to meaninfull messages.
-        /// </summary>
-        /// <returns>Instance of an exception.</returns>
-        /// <param name="errorCode">Error code.</param>
-        /// <param name="inner">Inner exception</param>
-        public static WebSocketException GetErrorMessageFromCode(int errorCode, Exception inner)
-        {
-
-            switch(errorCode)
-            {
-
-                case -1: return new WebSocketUnexpectedException("WebSocket instance not found.", inner);
-                case -2: return new WebSocketInvalidStateException("WebSocket is already connected or in connecting state.", inner);
-                case -3: return new WebSocketInvalidStateException("WebSocket is not connected.", inner);
-                case -4: return new WebSocketInvalidStateException("WebSocket is already closing.", inner);
-                case -5: return new WebSocketInvalidStateException("WebSocket is already closed.", inner);
-                case -6: return new WebSocketInvalidStateException("WebSocket is not in open state.", inner);
-                case -7: return new WebSocketInvalidArgumentException("Cannot close WebSocket. An invalid code was specified or reason is too long.", inner);
-                default: return new WebSocketUnexpectedException("Unknown error.", inner);
-
-            }
-
-        }
-
-    }
-
-    /// <summary>
-    /// Generic WebSocket exception class
-    /// </summary>
-    public class WebSocketException : Exception
-    {
-
-        public WebSocketException()
-        {
-        }
-
-        public WebSocketException(string message)
-            : base(message)
-        {
-        }
-
-        public WebSocketException(string message, Exception inner)
-            : base(message, inner)
-        {
-        }
-
-    }
-
-    /// <summary>
-    /// Web socket exception raised when an error was not expected, probably due to corrupted internal state.
-    /// </summary>
-    public class WebSocketUnexpectedException : WebSocketException
-    {
-        public WebSocketUnexpectedException(){}
-        public WebSocketUnexpectedException(string message) : base(message){}
-        public WebSocketUnexpectedException(string message, Exception inner) : base(message, inner) {}
-    }
-
-    /// <summary>
-    /// Invalid argument exception raised when bad arguments are passed to a method.
-    /// </summary>
-    public class WebSocketInvalidArgumentException : WebSocketException
-    {
-        public WebSocketInvalidArgumentException() { }
-        public WebSocketInvalidArgumentException(string message) : base(message) { }
-        public WebSocketInvalidArgumentException(string message, Exception inner) : base(message, inner) { }
-    }
-
-    /// <summary>
-    /// Invalid state exception raised when trying to invoke action which cannot be done due to different then required state.
-    /// </summary>
-    public class WebSocketInvalidStateException : WebSocketException
-    {
-        public WebSocketInvalidStateException() { }
-        public WebSocketInvalidStateException(string message) : base(message) { }
-        public WebSocketInvalidStateException(string message, Exception inner) : base(message, inner) { }
-    }
 
 #if UNITY_WEBGL && !UNITY_EDITOR
-    /// <summary>
+
+   /// <summary>
     /// WebSocket class bound to JSLIB.
     /// </summary>
-    public class WebSocket: IWebSocket
+    public class WebSocket : IWebSocket
     {
 
         /* WebSocket JSLIB functions */
@@ -247,374 +137,369 @@ namespace HybridWebSocket
         public static extern int WebSocketSend(int instanceId, byte[] dataPtr, int dataLength);
 
         [DllImport("__Internal")]
+        public static extern int WebSocketSendText(int instanceId, string message);
+
+        [DllImport("__Internal")]
         public static extern int WebSocketGetState(int instanceId);
 
-        /// <summary>
-        /// The instance identifier.
-        /// </summary>
         protected int instanceId;
 
-        /// <summary>
-        /// Occurs when the connection is opened.
-        /// </summary>
         public event WebSocketOpenEventHandler OnOpen;
-
-        /// <summary>
-        /// Occurs when a message is received.
-        /// </summary>
         public event WebSocketMessageEventHandler OnMessage;
-
-        /// <summary>
-        /// Occurs when an error was reported from WebSocket.
-        /// </summary>
         public event WebSocketErrorEventHandler OnError;
-
-        /// <summary>
-        /// Occurs when the socked was closed.
-        /// </summary>
         public event WebSocketCloseEventHandler OnClose;
 
-        /// <summary>
-        /// Constructor - receive JSLIB instance id of allocated socket
-        /// </summary>
-        /// <param name="instanceId">Instance identifier.</param>
-        public WebSocket(int instanceId)
+        public WebSocket(string url)
         {
+          if (!WebSocketFactory.isInitialized) {
+            WebSocketFactory.Initialize();
+          }
+
+        	int instanceId = WebSocketFactory.WebSocketAllocate(url);
+        	WebSocketFactory.instances.Add(instanceId, this);
 
             this.instanceId = instanceId;
-
         }
 
-        /// <summary>
-        /// Destructor - notifies WebSocketFactory about it to remove JSLIB references
-        /// Releases unmanaged resources and performs other cleanup operations before the
-        /// <see cref="T:HybridWebSocket.WebSocket"/> is reclaimed by garbage collection.
-        /// </summary>
         ~WebSocket()
         {
             WebSocketFactory.HandleInstanceDestroy(this.instanceId);
         }
 
-        /// <summary>
-        /// Return JSLIB instance ID
-        /// </summary>
-        /// <returns>The instance identifier.</returns>
         public int GetInstanceId()
         {
-
             return this.instanceId;
-
         }
 
-        /// <summary>
-        /// Open WebSocket connection
-        /// </summary>
-        public void Connect()
+        public Task Connect()
         {
-
             int ret = WebSocketConnect(this.instanceId);
 
             if (ret < 0)
                 throw WebSocketHelpers.GetErrorMessageFromCode(ret, null);
 
+            return Task.CompletedTask;
         }
 
-        /// <summary>
-        /// Close WebSocket connection with optional status code and reason.
-        /// </summary>
-        /// <param name="code">Close status code.</param>
-        /// <param name="reason">Reason string.</param>
-        public void Close(WebSocketCloseCode code = WebSocketCloseCode.Normal, string reason = null)
+        public Task Close(WebSocketCloseCode code = WebSocketCloseCode.Normal, string reason = null)
         {
-
             int ret = WebSocketClose(this.instanceId, (int)code, reason);
 
             if (ret < 0)
                 throw WebSocketHelpers.GetErrorMessageFromCode(ret, null);
 
+            return Task.CompletedTask;
         }
 
-        /// <summary>
-        /// Send binary data over the socket.
-        /// </summary>
-        /// <param name="data">Payload data.</param>
-        public void Send(byte[] data)
+        public Task Send(byte[] data)
         {
-
             int ret = WebSocketSend(this.instanceId, data, data.Length);
 
             if (ret < 0)
                 throw WebSocketHelpers.GetErrorMessageFromCode(ret, null);
 
+            return Task.CompletedTask;
         }
 
-        /// <summary>
-        /// Return WebSocket connection state.
-        /// </summary>
-        /// <returns>The state.</returns>
-        public WebSocketState GetState()
+        public Task SendText(string message)
         {
+            int ret = WebSocketSendText(this.instanceId, message);
 
-            int state = WebSocketGetState(this.instanceId);
+            if (ret < 0)
+                throw WebSocketHelpers.GetErrorMessageFromCode(ret, null);
 
-            if (state < 0)
-                throw WebSocketHelpers.GetErrorMessageFromCode(state, null);
-
-            switch (state)
-            {
-                case 0:
-                    return WebSocketState.Connecting;
-
-                case 1:
-                    return WebSocketState.Open;
-
-                case 2:
-                    return WebSocketState.Closing;
-
-                case 3:
-                    return WebSocketState.Closed;
-
-                default:
-                    return WebSocketState.Closed;
-            }
-
+            return Task.CompletedTask;
         }
 
-        /// <summary>
-        /// Delegates onOpen event from JSLIB to native sharp event
-        /// Is called by WebSocketFactory
-        /// </summary>
+        public WebSocketState State {
+            get {
+                int state = WebSocketGetState(this.instanceId);
+
+                if (state < 0)
+                    throw WebSocketHelpers.GetErrorMessageFromCode(state, null);
+
+                switch (state)
+                {
+                    case 0:
+                        return WebSocketState.Connecting;
+
+                    case 1:
+                        return WebSocketState.Open;
+
+                    case 2:
+                        return WebSocketState.Closing;
+
+                    case 3:
+                        return WebSocketState.Closed;
+
+                    default:
+                        return WebSocketState.Closed;
+                }
+            }
+        }
+
         public void DelegateOnOpenEvent()
         {
-
             this.OnOpen?.Invoke();
-
         }
 
-        /// <summary>
-        /// Delegates onMessage event from JSLIB to native sharp event
-        /// Is called by WebSocketFactory
-        /// </summary>
-        /// <param name="data">Binary data.</param>
         public void DelegateOnMessageEvent(byte[] data)
         {
-
             this.OnMessage?.Invoke(data);
-
         }
 
-        /// <summary>
-        /// Delegates onError event from JSLIB to native sharp event
-        /// Is called by WebSocketFactory
-        /// </summary>
-        /// <param name="errorMsg">Error message.</param>
         public void DelegateOnErrorEvent(string errorMsg)
         {
-
             this.OnError?.Invoke(errorMsg);
-
         }
 
-        /// <summary>
-        /// Delegate onClose event from JSLIB to native sharp event
-        /// Is called by WebSocketFactory
-        /// </summary>
-        /// <param name="closeCode">Close status code.</param>
         public void DelegateOnCloseEvent(int closeCode)
         {
-
             this.OnClose?.Invoke(WebSocketHelpers.ParseCloseCodeEnum(closeCode));
-
         }
 
     }
+
+
 #else
-    public class WebSocket : IWebSocket
-    {
 
-        /// <summary>
-        /// Occurs when the connection is opened.
-        /// </summary>
-        public event WebSocketOpenEventHandler OnOpen;
+  public class WebSocket : IWebSocket
+	{
+		public event WebSocketOpenEventHandler OnOpen;
+		public event WebSocketMessageEventHandler OnMessage;
+		public event WebSocketErrorEventHandler OnError;
+		public event WebSocketCloseEventHandler OnClose;
 
-        /// <summary>
-        /// Occurs when a message is received.
-        /// </summary>
-        public event WebSocketMessageEventHandler OnMessage;
+		private Uri uri;
+		private ClientWebSocket m_Socket = new ClientWebSocket();
 
-        /// <summary>
-        /// Occurs when an error was reported from WebSocket.
-        /// </summary>
-        public event WebSocketErrorEventHandler OnError;
+    private readonly object Lock = new object();
 
-        /// <summary>
-        /// Occurs when the socked was closed.
-        /// </summary>
-        public event WebSocketCloseEventHandler OnClose;
+    private bool isSending = false;
+    private List<ArraySegment<byte>> sendBytesQueue = new List<ArraySegment<byte>>();
+    private List<ArraySegment<byte>> sendTextQueue = new List<ArraySegment<byte>>();
 
-        /// <summary>
-        /// The WebSocketSharp instance.
-        /// </summary>
-        protected WebSocketSharp.WebSocket ws;
+    public WebSocket(string url)
+		{
+			uri = new Uri(url);
 
-        /// <summary>
-        /// WebSocket constructor.
-        /// </summary>
-        /// <param name="url">Valid WebSocket URL.</param>
-        public WebSocket(string url)
-        {
+			string protocol = uri.Scheme;
+			if (!protocol.Equals("ws") && !protocol.Equals("wss"))
+				throw new ArgumentException("Unsupported protocol: " + protocol);
+		}
 
-            try
-            {
+		public async Task Connect()
+		{
+			try
+			{
+				m_Socket = new ClientWebSocket();
 
-                // Create WebSocket instance
-                this.ws = new WebSocketSharp.WebSocket(url);
+				await m_Socket.ConnectAsync(uri, CancellationToken.None);
+				OnOpen?.Invoke();
 
-                // Bind OnOpen event
-                this.ws.OnOpen += (sender, ev) =>
-                {
-                    this.OnOpen?.Invoke();
-                };
+				await Receive();
+			}
+			catch (Exception ex)
+			{
+				OnError?.Invoke(ex.Message);
+				OnClose?.Invoke(WebSocketCloseCode.Abnormal);
+			}
+		}
 
-                // Bind OnMessage event
-                this.ws.OnMessage += (sender, ev) =>
-                {
-                    if (ev.RawData != null)
-                        this.OnMessage?.Invoke(ev.RawData);
-                };
+		public WebSocketState State
+		{
+			get
+			{
+				switch (m_Socket.State)
+				{
+					case System.Net.WebSockets.WebSocketState.Connecting:
+						return WebSocketState.Connecting;
 
-                // Bind OnError event
-                this.ws.OnError += (sender, ev) =>
-                {
-                    this.OnError?.Invoke(ev.Message);
-                };
+					case System.Net.WebSockets.WebSocketState.Open:
+						return WebSocketState.Open;
 
-                // Bind OnClose event
-                this.ws.OnClose += (sender, ev) =>
-                {
-                    this.OnClose?.Invoke(
-                        WebSocketHelpers.ParseCloseCodeEnum( (int)ev.Code )
-                    );
-                };
+					case System.Net.WebSockets.WebSocketState.CloseSent:
+					case System.Net.WebSockets.WebSocketState.CloseReceived:
+						return WebSocketState.Closing;
 
-            }
-            catch (Exception e)
-            {
+					case System.Net.WebSockets.WebSocketState.Closed:
+						return WebSocketState.Closed;
 
-                throw new WebSocketUnexpectedException("Failed to create WebSocket Client.", e);
+					default:
+						return WebSocketState.Closed;
+				}
+			}
+		}
 
-            }
+		public Task Send(byte[] bytes)
+		{
+      // return m_Socket.SendAsync(buffer, WebSocketMessageType.Binary, true, CancellationToken.None);
+      return SendMessage(sendBytesQueue, WebSocketMessageType.Binary, new ArraySegment<byte>(bytes));
+		}
 
-        }
+		public Task SendText(string message)
+		{
+			var encoded = Encoding.UTF8.GetBytes(message);
 
-        /// <summary>
-        /// Open WebSocket connection
-        /// </summary>
-        public void Connect()
-        {
-
-            // Check state
-            if (this.ws.ReadyState == WebSocketSharp.WebSocketState.Open || this.ws.ReadyState == WebSocketSharp.WebSocketState.Closing)
-                throw new WebSocketInvalidStateException("WebSocket is already connected or is closing.");
-
-            try
-            {
-                this.ws.ConnectAsync();
-            }
-            catch (Exception e)
-            {
-                throw new WebSocketUnexpectedException("Failed to connect.", e);
-            }
-
-        }
-
-        /// <summary>
-        /// Close WebSocket connection with optional status code and reason.
-        /// </summary>
-        /// <param name="code">Close status code.</param>
-        /// <param name="reason">Reason string.</param>
-        public void Close(WebSocketCloseCode code = WebSocketCloseCode.Normal, string reason = null)
-        {
-
-            // Check state
-            if (this.ws.ReadyState == WebSocketSharp.WebSocketState.Closing)
-                throw new WebSocketInvalidStateException("WebSocket is already closing.");
-
-            if (this.ws.ReadyState == WebSocketSharp.WebSocketState.Closed)
-                throw new WebSocketInvalidStateException("WebSocket is already closed.");
-
-            try
-            {
-                this.ws.CloseAsync((ushort)code, reason);
-            }
-            catch (Exception e)
-            {
-                throw new WebSocketUnexpectedException("Failed to close the connection.", e);
-            }
-
-        }
-
-        /// <summary>
-        /// Send binary data over the socket.
-        /// </summary>
-        /// <param name="data">Payload data.</param>
-        public void Send(byte[] data)
-        {
-
-            // Check state
-            if (this.ws.ReadyState != WebSocketSharp.WebSocketState.Open)
-                throw new WebSocketInvalidStateException("WebSocket is not in open state.");
-
-            try
-            {
-                this.ws.Send(data);
-            }
-            catch (Exception e)
-            {
-                throw new WebSocketUnexpectedException("Failed to send message.", e);
-            }
-
-        }
-
-        /// <summary>
-        /// Return WebSocket connection state.
-        /// </summary>
-        /// <returns>The state.</returns>
-        public WebSocketState GetState()
-        {
-
-            switch (this.ws.ReadyState)
-            {
-                case WebSocketSharp.WebSocketState.Connecting:
-                    return WebSocketState.Connecting;
-
-                case WebSocketSharp.WebSocketState.Open:
-                    return WebSocketState.Open;
-
-                case WebSocketSharp.WebSocketState.Closing:
-                    return WebSocketState.Closing;
-
-                case WebSocketSharp.WebSocketState.Closed:
-                    return WebSocketState.Closed;
-
-                default:
-                    return WebSocketState.Closed;
-            }
-
-        }
-
+      // m_Socket.SendAsync(buffer, WebSocketMessageType.Text, true, CancellationToken.None);
+      return SendMessage(sendTextQueue, WebSocketMessageType.Text, new ArraySegment<byte>(encoded, 0, encoded.Length));
     }
+
+    private async Task SendMessage(List<ArraySegment<byte>> queue, WebSocketMessageType messageType, ArraySegment<byte> buffer)
+    {
+      // Return control to the calling method immediately.
+      await Task.Yield();
+
+      // Make sure we have data.
+      if (buffer.Count == 0)
+      {
+        return;
+      }
+
+      // The state of the connection is contained in the context Items dictionary.
+      bool sending;
+
+      lock (Lock)
+      {
+        sending = isSending;
+
+        // If not, we are now.
+        if (!isSending)
+        {
+          isSending = true;
+        }
+      }
+
+      if (!sending)
+      {
+        // Lock with a timeout, just in case.
+        if (!Monitor.TryEnter(m_Socket, 1000))
+        {
+          // If we couldn't obtain exclusive access to the socket in one second, something is wrong.
+          await m_Socket.CloseAsync(WebSocketCloseStatus.InternalServerError, string.Empty, CancellationToken.None);
+          return;
+        }
+
+        try
+        {
+          // Send the message synchronously.
+          var t = m_Socket.SendAsync(buffer, messageType, true, CancellationToken.None);
+          t.Wait();
+        }
+        finally
+        {
+          Monitor.Exit(m_Socket);
+        }
+
+        // Note that we've finished sending.
+        lock (Lock)
+        {
+          isSending = false;
+        }
+
+        // Handle any queued messages.
+        await HandleQueue(queue, messageType);
+      }
+      else
+      {
+        // Add the message to the queue.
+        lock (Lock)
+        {
+          queue.Add(buffer);
+        }
+      }
+    }
+
+    private async Task HandleQueue(List<ArraySegment<byte>> queue, WebSocketMessageType messageType)
+    {
+      var buffer = new ArraySegment<byte>();
+      lock (Lock)
+      {
+        // Check for an item in the queue.
+        if (queue.Count > 0)
+        {
+          // Pull it off the top.
+          buffer = queue[0];
+          queue.RemoveAt(0);
+        }
+      }
+
+      // Send that message.
+      if (buffer.Count > 0)
+      {
+        await SendMessage(queue, messageType, buffer);
+      }
+    }
+
+
+    public async Task Receive()
+		{
+			ArraySegment<byte> buffer = new ArraySegment<byte>(new byte[8192]);
+
+			while (m_Socket.State == System.Net.WebSockets.WebSocketState.Open)
+			{
+				WebSocketReceiveResult result = null;
+
+				using (var ms = new MemoryStream())
+				{
+					do
+					{
+						result = await m_Socket.ReceiveAsync(buffer, CancellationToken.None);
+						ms.Write(buffer.Array, buffer.Offset, result.Count);
+					}
+					while (!result.EndOfMessage);
+
+					ms.Seek(0, SeekOrigin.Begin);
+
+					if (result.MessageType == WebSocketMessageType.Text)
+					{
+						OnMessage?.Invoke(ms.ToArray());
+						//using (var reader = new StreamReader(ms, Encoding.UTF8))
+						//{
+						//	string message = reader.ReadToEnd();
+						//	OnMessage?.Invoke(this, new MessageEventArgs(message));
+						//}
+					}
+					else if (result.MessageType == WebSocketMessageType.Binary)
+					{
+						OnMessage?.Invoke(ms.ToArray());
+					}
+					else if (result.MessageType == WebSocketMessageType.Close)
+					{
+						await Close();
+						OnClose?.Invoke(WebSocketHelpers.ParseCloseCodeEnum((int)result.CloseStatus));
+						break;
+					}
+				}
+			}
+
+		}
+
+		public async Task Close()
+		{
+			if (State == WebSocketState.Open)
+			{
+				await m_Socket.CloseAsync(WebSocketCloseStatus.NormalClosure, string.Empty, CancellationToken.None);
+			}
+		}
+	}
 #endif
 
-    /// <summary>
-    /// Class providing static access methods to work with JSLIB WebSocket or WebSocketSharp interface
-    /// </summary>
-    public static class WebSocketFactory
-    {
+
+	///
+	/// Factory
+	///
+
+
+	/// <summary>
+	/// Class providing static access methods to work with JSLIB WebSocket or WebSocketSharp interface
+	/// </summary>
+	public static class WebSocketFactory
+	{
 
 #if UNITY_WEBGL && !UNITY_EDITOR
         /* Map of websocket instances */
-        private static Dictionary<Int32, WebSocket> instances = new Dictionary<Int32, WebSocket>();
+        public static Dictionary<Int32, WebSocket> instances = new Dictionary<Int32, WebSocket>();
 
         /* Delegates */
         public delegate void OnOpenCallback(int instanceId);
@@ -642,12 +527,12 @@ namespace HybridWebSocket
         public static extern void WebSocketSetOnClose(OnCloseCallback callback);
 
         /* If callbacks was initialized and set */
-        private static bool isInitialized = false;
+        public static bool isInitialized = false;
 
         /*
          * Initialize WebSocket callbacks to JSLIB
          */
-        private static void Initialize()
+        public static void Initialize()
         {
 
             WebSocketSetOnOpen(DelegateOnOpenEvent);
@@ -731,27 +616,17 @@ namespace HybridWebSocket
         }
 #endif
 
-        /// <summary>
-        /// Create WebSocket client instance
-        /// </summary>
-        /// <returns>The WebSocket instance.</returns>
-        /// <param name="url">WebSocket valid URL.</param>
-        public static WebSocket CreateInstance(string url)
-        {
-#if UNITY_WEBGL && !UNITY_EDITOR
-        if (!isInitialized)
-            Initialize();
+		/// <summary>
+		/// Create WebSocket client instance
+		/// </summary>
+		/// <returns>The WebSocket instance.</returns>
+		/// <param name="url">WebSocket valid URL.</param>
+		public static WebSocket CreateInstance(string url)
+		{
+			return new WebSocket(url);
+		}
 
-        int instanceId = WebSocketAllocate(url);
-        WebSocket wrapper = new WebSocket(instanceId);
-        instances.Add(instanceId, wrapper);
+	}
 
-        return wrapper;
-#else
-            return new WebSocket(url);
-#endif
-        }
-
-    }
 
 }
