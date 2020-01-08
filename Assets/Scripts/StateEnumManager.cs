@@ -9,6 +9,7 @@ public class StateEnumManager : MonoBehaviour
 {
     [Serializable] public class StateEvent : UnityEvent <string> {}
     public string currentState;
+    public bool showDebugForStateChange = false;
     public StateEvent defaultState;
     public StateEvent loadingData;
     public StateEvent loadingDataFinished;
@@ -73,7 +74,10 @@ public class StateEnumManager : MonoBehaviour
             if (state.Equals(stateString))
             {
                 currentState = state;
-                debugLogState(currentState);
+                if (showDebugForStateChange)
+                {
+                    debugLogState(currentState);
+                }
                 switch (currentState)
                 {
                     case "LoadingData":

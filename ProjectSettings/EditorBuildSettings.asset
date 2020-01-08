@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/StarterScene.unity
+    path: Assets/Scenes/StarterScene.unity
     guid: ad84efc07597f4959af5f12187dca6bc
+  - enabled: 0
+    path: Assets/TextureSendReceiverCustom/Example/ExampleCameraSendReceive.unity
+    guid: 1e03595fb45631f42b0601368dd417e0
+  - enabled: 1
+    path: Assets/Scenes/StreamScene.unity
+    guid: c6866c03520464d46a2a71e04dc83abd
   m_configObjects: {}

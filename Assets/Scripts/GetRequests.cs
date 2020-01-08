@@ -76,7 +76,6 @@ public class GetRequests : MonoBehaviour
             LotteryDeserializer l = new LotteryDeserializer();
 
             LotteryList = l.GenerateLotteryList(response.Text);
-            Debug.Log(LotteryList);
             return LotteryList;
         }).Then(list =>
         {
