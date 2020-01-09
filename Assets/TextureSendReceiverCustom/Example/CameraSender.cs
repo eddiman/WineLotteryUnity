@@ -33,8 +33,8 @@ namespace TextureSendReceiverCustom.Example {
 
 
             // Set preview image target
-            if (image == null) return;
-            image.texture = camera.targetTexture;
+            /*if (image == null) return;
+            image.texture = camera.targetTexture;*/
         }
     }
 }

@@ -10,11 +10,12 @@ public class TriggerEvent : MonoBehaviour
     [Serializable] public class TriggerColliderEvent : UnityEvent <Collider> {}
 
     public GameObject colliderRuleObject;
+    public string colliderTagRuleString;
     public bool disableMeshRendererAtRuntime = true;
 
     public TriggerColliderEvent triggerEnter;
-    public UnityEvent triggerStay;
-    public UnityEvent triggerExit;
+    public TriggerColliderEvent triggerStay;
+    public TriggerColliderEvent triggerExit;
 
     private void Start()
     {
@@ -23,47 +24,60 @@ public class TriggerEvent : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //If there is no object set to collide with, then execute order
-        if (colliderRuleObject == null)
+        if ( colliderTagRuleString != "" && other.gameObject.CompareTag(colliderTagRuleString))
+        {
+            triggerEnter?.Invoke(other);
+
+        }else
+        if (colliderRuleObject == other.gameObject && colliderTagRuleString == "")
+        {
+            triggerEnter?.Invoke(other);
+
+        } else
+            //If there is no object set to collide with, then execute order
+        if (colliderRuleObject == null && colliderTagRuleString == "")
         {
             triggerEnter?.Invoke(other);
         }
         //If there is an object set to collide with, then execute order when they collide
-        else
-        if (colliderRuleObject == other.gameObject)
-        {
-            triggerEnter?.Invoke(other);
 
-        }
     }
 
     private void OnTriggerStay(Collider other)
     {
-        //If there is no object set to collide with, then execute order
-        if (colliderRuleObject == null)
+        if ( colliderTagRuleString != "" && other.gameObject.CompareTag(colliderTagRuleString))
         {
-            triggerStay?.Invoke();
-        }
-        //If there is an object set to collide with, then execute order when they collide
-        else if (colliderRuleObject == other.gameObject)
-        {
-            triggerStay?.Invoke();
+            triggerEnter?.Invoke(other);
 
+        }else
+        if (colliderRuleObject == other.gameObject && colliderTagRuleString == "")
+        {
+            triggerEnter?.Invoke(other);
+
+        } else
+            //If there is no object set to collide with, then execute order
+        if (colliderRuleObject == null && colliderTagRuleString == "")
+        {
+            triggerEnter?.Invoke(other);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        //If there is no object set to collide with, then execute order
-        if (colliderRuleObject == null)
+        if ( colliderTagRuleString != "" && other.gameObject.CompareTag(colliderTagRuleString))
         {
-            triggerExit?.Invoke();
-        }
-        //If there is an object set to collide with, then execute order when they collide
-        else if (colliderRuleObject == other.gameObject)
-        {
-            triggerExit?.Invoke();
+            triggerEnter?.Invoke(other);
 
+        }else
+        if (colliderRuleObject == other.gameObject && colliderTagRuleString == "")
+        {
+            triggerEnter?.Invoke(other);
+
+        } else
+            //If there is no object set to collide with, then execute order
+        if (colliderRuleObject == null && colliderTagRuleString == "")
+        {
+            triggerEnter?.Invoke(other);
         }
     }
 }
