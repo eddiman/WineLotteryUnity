@@ -65,7 +65,7 @@ public class GetBallOnTop : MonoBehaviour
             _drawBall = GetObjectFromRaycast(0);
         }
         Debug.Log("getballontop");
-        _drawBall.transform.position = new Vector3(transform.position.x, _drawBall.transform.position.y, transform.position.z);
+        _drawBall.transform.position = new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z);
         _drawBall.transform.name = "DrawBall";
         _drawBall.transform.tag = "DrawBall";
         GetComponent<Collider>().enabled = false;

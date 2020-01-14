@@ -11,6 +11,8 @@ public class StateEnumManager : MonoBehaviour
     public string currentState;
     public bool showDebugForStateChange = false;
     public StateEvent defaultState;
+    [Header("Data Retrieval States")]
+    public StateEvent idTokenRetrieved;
     public StateEvent loadingData;
     public StateEvent loadingDataFinished;
     [Header("Draw Ready")]
@@ -44,6 +46,7 @@ public class StateEnumManager : MonoBehaviour
     private string[] States =
     {
         "Default",
+        "IdTokenRetrieved",
         "LoadingData",
         "LoadingDataFinished",
         "DrawReady",
@@ -80,7 +83,9 @@ public class StateEnumManager : MonoBehaviour
                 }
                 switch (currentState)
                 {
-                    case "LoadingData":
+                    case "IdTokenRetrieved":
+                        idTokenRetrieved.Invoke(currentState);
+                        break;case "LoadingData":
                         loadingData.Invoke(currentState);
                         break;
                     case "LoadingDataFinished":

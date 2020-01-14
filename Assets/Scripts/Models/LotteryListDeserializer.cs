@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Models
 {
-    public class LotteryDeserializer
+    public class LotteryListDeserializer
     {
         public List<Lottery> GenerateLotteryList(string jsonRes)
         {

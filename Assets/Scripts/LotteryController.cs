@@ -13,7 +13,7 @@ public class LotteryController : MonoBehaviour
         currentLottery = lottery;
     }
 
-    public Lottery getLottery()
+    public  Lottery getLottery()
     {
         return currentLottery;
     }

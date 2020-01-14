@@ -56,9 +56,10 @@ public class BallMaker : MonoBehaviour
             amountCounter += 1;
             _participatorTicketCounter += 1;
             var position = transform.position;
-            var obj = Instantiate(ball, new Vector3(position.x, position.y, position.z), transform.rotation);
+            var obj = Instantiate(ball, new Vector3(position.x, position.y, position.z), transform.rotation, transform);
             obj.GetComponent<BallScript>().SetParticipant(currentParticipant);
-            obj.transform.parent = transform;
+
+
         }
     }
     private void Generate()
@@ -71,9 +72,7 @@ public class BallMaker : MonoBehaviour
         else
         {
             var position = transform.position;
-            var obj = Instantiate(ball, new Vector3(position.x, position.y, position.z), transform.rotation);
-            ;
-            obj.transform.parent = transform;
+            var obj = Instantiate(ball, new Vector3(position.x, position.y, position.z), transform.rotation,transform );
             amountCounter++;
         }
     }

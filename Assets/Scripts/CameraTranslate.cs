@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,6 +10,7 @@ public class CameraTranslate : MonoBehaviour
     public GameObject fromObject;
     public GameObject toObject;
     public GameObject lookAtObject;
+    [Tooltip("If 0, the camera moves instantly")]
     public float duration = 1f;
     public bool disableMeshRendererAtRuntime = true;
     public bool drawLineBetweenOnSelect = true;
@@ -62,13 +64,19 @@ public class CameraTranslate : MonoBehaviour
         float counter = 0;
 
         //Get the current position of the object to be moved
-
+        if (duration == 0)
+        {
+            objToTranslate.transform.position = toPosition;
+            objToTranslate.transform.rotation = _lookRotation;
+            onFinished.Invoke();
+            _isMoving = false;
+        }
         while (counter < duration)
         {
             counter += Time.deltaTime;
             objToTranslate.transform.position = Vector3.Lerp(fromPosition, toPosition, counter / duration);
             objToTranslate.transform.rotation =
-                Quaternion.Slerp(objToTranslate.transform.rotation, _lookRotation, counter / duration);
+                Quaternion.Lerp(objToTranslate.transform.rotation, _lookRotation, counter / duration);
             yield return null;
         }
         onFinished.Invoke();

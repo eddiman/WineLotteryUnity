@@ -23,7 +23,7 @@ namespace TextureSendReceiverCustom {
             Texture2D raw = Resources.Load<Texture2D>("Images/no-signal");
             rawByte = raw.EncodeToJPG();
             ws = GetComponent<WebSocketHelper>().getWebSocket();
-            InvokeRepeating(nameof(SendData), 0f, 0.1f);
+            InvokeRepeating(nameof(SendData), 0f, 0.3f);
             await ws.Connect();
         }
 
