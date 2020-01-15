@@ -16,7 +16,7 @@ namespace DefaultNamespace
     {
         private readonly string BASE_PATH = FirebaseSettings.DATABASE_URL;
         public UnityEvent PostingData;
-        public LotteryEvent onPostFinished;
+        public LotteryListEvent onPostFinished;
         public UnityEvent onIdTokenFinished;
         private RequestHelper currentRequest;
         private readonly string API_KEY = FirebaseSettings.API_KEY;

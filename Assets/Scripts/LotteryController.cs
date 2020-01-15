@@ -1,19 +1,20 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Models;
 using UnityEngine;
 
 public class LotteryController : MonoBehaviour
 {
-
+    [SerializeField]
     public Lottery currentLottery;
 
-    public void setLottery(Lottery lottery)
+    public void SetLottery(Lottery lottery)
     {
         currentLottery = lottery;
     }
 
-    public  Lottery getLottery()
+    public  Lottery GetLottery()
     {
         return currentLottery;
     }

@@ -24,7 +24,7 @@ public class BallMaker : MonoBehaviour
 
     public void StartBallMaking()
     {
-        _lottery = LotteryController.GetComponent<LotteryController>().getLottery();
+        _lottery = LotteryController.GetComponent<LotteryController>().GetLottery();
         onStart.Invoke();
         if (instantiateAmount)
         {

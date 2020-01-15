@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.nobi.roundedcorners": "https://github.com/Nobinator/Unity-UI-Rounded-Corners.git",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ext.nunit": "1.0.0",
     "com.unity.ide.rider": "1.1.0",
@@ -9,6 +11,7 @@
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.6",
     "com.unity.ugui": "1.0.0",
+    "com.unity.vectorgraphics": "2.0.0-preview.11",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -40,5 +43,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.nobi.roundedcorners": {
+      "revision": "HEAD",
+      "hash": "ea4e7389550840bbd3c5c3dffbc6e0c66a79e520"
+    }
   }
 }

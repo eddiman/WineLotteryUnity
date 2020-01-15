@@ -5,15 +5,11 @@ namespace Models
 {
     public class LotteryDeserializer
     {
-        public List<Lottery> GenerateLottery(string jsonRes)
+        public Lottery GenerateLottery(string jsonRes)
         {
             var rootObj = JsonConvert.DeserializeObject<Document>(jsonRes);
-            List<Lottery> lotteryList = new List<Lottery>();
-
-            {
 
                 Lottery lottery = new Lottery(
-                
                 );
                 List<Participant> participants = new List<Participant>();
                 List<Draw> draws = new List<Draw>();
@@ -59,10 +55,9 @@ namespace Models
                 lottery.draws = draws;
                 lottery.numberOfTickets = GetSumOfTickets(participants);
 
-                lotteryList.Add(lottery);
-            }
 
-            return lotteryList;
+
+            return lottery;
         }
 
         private int GetSumOfTickets(List<Participant> list)

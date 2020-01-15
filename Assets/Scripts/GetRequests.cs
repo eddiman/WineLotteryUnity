@@ -9,18 +9,20 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
-[Serializable] public class LotteryEvent : UnityEvent<List<Lottery>> {}
+[Serializable] public class LotteryListEvent : UnityEvent<List<Lottery>> {}
+[Serializable] public class LotteryEvent : UnityEvent<Lottery> {}
 
 public class GetRequests : MonoBehaviour
 {
     private readonly string BASE_PATH = FirebaseSettings.DATABASE_URL;
     public UnityEvent LoadingData;
-    public LotteryEvent onLoadFinished;
+    public LotteryListEvent onListLoadFinished;
+    public LotteryEvent onLotteryLoadFinished;
     private RequestHelper currentRequest;
     [SerializeField]
-    public List<Lottery> LotteryList;
+    public List<Lottery> lotteryList;
+    public Lottery lottery;
     private readonly string API_KEY = FirebaseSettings.API_KEY;
-
 
     private void LogMessage(string title, string message) {
 #if UNITY_EDITOR
@@ -32,55 +34,57 @@ public class GetRequests : MonoBehaviour
 
     public void GetAllLotteries(){
         // We can add default request headers for all requests
-       // RestClient.DefaultRequestHeaders["Authorization"] = "Bearer " + FIRESTORE_TOKEN;
+        // RestClient.DefaultRequestHeaders["Authorization"] = "Bearer " + FIRESTORE_TOKEN;
 
-       LoadingData.Invoke();
-       RequestHelper requestOptions = new RequestHelper {
+        LoadingData.Invoke();
+        RequestHelper requestOptions = new RequestHelper {
             Uri = BASE_PATH,
             Headers = new Dictionary<string, string> {
                 { "Authorization", "Bearer " + FirebaseSettings.idToken }
             }
         };
         RestClient.Get(requestOptions).Then(response => {
-            Debug.Log(FirebaseSettings.idToken);
 
             //EditorUtility.DisplayDialog("Response", response.Text, "Ok");
             LotteryListDeserializer l = new LotteryListDeserializer();
 
-            LotteryList = l.GenerateLotteryList(response.Text);
-            return LotteryList;
+            lotteryList = l.GenerateLotteryList(response.Text);
+            return lotteryList;
         }).Then(list =>
         {
-            Debug.Log(FirebaseSettings.idToken);
 
-            if (LotteryList != null)
+            if (lotteryList != null)
             {
-                onLoadFinished.Invoke(LotteryList);
+                onListLoadFinished.Invoke(lotteryList);
             }
         }).Catch(err => this.LogMessage("Error", err.Message));
 
     }
     public void GetSingleLottery(string lotteryId){
         // We can add default request headers for all requests
-       // RestClient.DefaultRequestHeaders["Authorization"] = "Bearer " + FIRESTORE_TOKEN;
-       LoadingData.Invoke();
-       RequestHelper requestOptions = new RequestHelper {
-            Uri = BASE_PATH + "/" + lotteryId,
+        LoadingData.Invoke();
+        var entireUrl = BASE_PATH + "/" + lotteryId;
+        RequestHelper requestOptions = new RequestHelper {
+            Uri = entireUrl,
+            Method = "GET",
             Headers = new Dictionary<string, string> {
                 { "Authorization", "Bearer " + FirebaseSettings.idToken }
             }
         };
-        RestClient.Get(requestOptions).Then(response => {
-            //EditorUtility.DisplayDialog("Response", response.Text, "Ok");
-            LotteryListDeserializer l = new LotteryListDeserializer();
+        Debug.Log(requestOptions);
 
-            LotteryList = l.GenerateLotteryList(response.Text);
-            return LotteryList;
-        }).Then(list =>
-        {
-            if (LotteryList != null)
+        RestClient.Request(requestOptions).Then(response => {
+            Debug.Log(response);
+
+            LotteryDeserializer l = new LotteryDeserializer();
+
+            lottery = l.GenerateLottery(response.Text);
+            return lottery;
+        }).Then(lott =>
+        { ;
+            if (lott != null)
             {
-                onLoadFinished.Invoke(LotteryList);
+                onLotteryLoadFinished.Invoke(lott);
             }
         }).Catch(err => this.LogMessage("Error", err.Message));
 

@@ -18,7 +18,7 @@ namespace UI
         public void SetCurrentLottery()
         {
             var lotteryController = GameObject.Find("LotteryController");
-                lotteryController.GetComponent<LotteryController>().setLottery(lottery);
+                lotteryController.GetComponent<LotteryController>().SetLottery(lottery);
         }
         //TODO: get the fuck rid of this
         public void invokeStateChange()
