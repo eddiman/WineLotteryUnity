@@ -71,7 +71,7 @@ public class GetRequests : MonoBehaviour
                 { "Authorization", "Bearer " + FirebaseSettings.idToken }
             }
         };
-        Debug.Log(requestOptions);
+
 
         RestClient.Request(requestOptions).Then(response => {
 

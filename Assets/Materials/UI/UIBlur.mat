@@ -67,14 +67,14 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Size: 3
+    - _Size: 2.8
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _AdditiveColor: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0}
+    - _AdditiveColor: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MultiplyColor: {r: 1, g: 1, b: 1, a: 1}

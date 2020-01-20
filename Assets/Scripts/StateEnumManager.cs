@@ -15,8 +15,10 @@ public class StateEnumManager : MonoBehaviour
     public StateEvent idTokenRetrieved;
     public StateEvent loadingData;
     public StateEvent loadingDataFinished;
-    [Header("Draw Ready")]
+    [Header("Draw Not Ready")]
     [Header("Lottery States")]
+    public StateEvent drawNotReady;
+    [Header("Draw Ready")]
     public StateEvent drawReady;
     [Header("Ball Making")]
     public StateEvent ballMakingState;
@@ -42,8 +44,10 @@ public class StateEnumManager : MonoBehaviour
     public StateEvent drawResettingState;
     [Header("Draw Resetting Finished")]
     public StateEvent drawResettingFinishedState;
+    [Header("Lottery Finished")]
+    public StateEvent lotteryFinished;
     [Header("Lottery Exiting")]
-    public StateEvent LotteryExiting;
+    public StateEvent lotteryExiting;
 
     private string[] States =
     {
@@ -51,6 +55,7 @@ public class StateEnumManager : MonoBehaviour
         "IdTokenRetrieved",
         "LoadingData",
         "LoadingDataFinished",
+        "DrawNotReady",
         "DrawReady",
         "BallMaking",
         "BallMakingFinished",
@@ -64,6 +69,7 @@ public class StateEnumManager : MonoBehaviour
         "DrawFinished",
         "DrawResetting",
         "DrawResettingFinished",
+        "LotteryFinished",
         "LotteryExiting"
     };
 
@@ -94,6 +100,9 @@ public class StateEnumManager : MonoBehaviour
                         break;
                     case "LoadingDataFinished":
                         loadingDataFinished.Invoke(currentState);
+                        break;
+                    case "DrawNotReady":
+                        drawNotReady.Invoke(currentState);
                         break;
                     case "DrawReady":
                         drawReady.Invoke(currentState);
@@ -147,7 +156,11 @@ public class StateEnumManager : MonoBehaviour
 
                         break;
                     case "LotteryExiting":
-                        LotteryExiting.Invoke(currentState);
+                        lotteryExiting.Invoke(currentState);
+
+                        break;
+                    case "LotteryFinished":
+                        lotteryFinished.Invoke(currentState);
 
                         break;
 

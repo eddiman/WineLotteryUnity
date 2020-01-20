@@ -17,7 +17,7 @@ public class OpenLotteryHelper : MonoBehaviour
     {
         var pin = inputField.GetComponent<TMP_InputField>().text;
         var temp = pin.ToCharArray();
-        Debug.Log(temp);
+
 
         InitLotteryEvent.Invoke(pin);
     }

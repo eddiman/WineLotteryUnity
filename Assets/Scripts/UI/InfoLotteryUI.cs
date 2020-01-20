@@ -1,0 +1,61 @@
+﻿using System.Linq;
+using Models;
+using TMPro;
+using UnityEngine;
+
+public class InfoLotteryUI : MonoBehaviour
+{
+
+    public GameObject lotteryController;
+    public Lottery currentLottery;
+    public GameObject StartTimeTmp;
+    public GameObject DescriptionTmp;
+    public GameObject NoOfDrawsTmp;
+    public GameObject NoOfTicketsTmp;
+    public GameObject LotteryWinners;
+    public GameObject LotteryWinnersTmp;
+    public GameObject LotteryParticipants;
+    public GameObject LotteryParticipantsTmp;
+
+
+    public void PopulateInfoAboutLottery()
+    {
+        float winnersYOffset = LotteryWinnersTmp.GetComponent<RectTransform>().localPosition.y;
+        float participantYOffset = LotteryParticipantsTmp.GetComponent<RectTransform>().localPosition.y;
+        currentLottery = lotteryController.GetComponent<LotteryController>().currentLottery;
+        System.DateTime dateTime = System.DateTime.Parse(currentLottery.dateTime);
+        StartTimeTmp.GetComponent<TextMeshProUGUI>().text = "Lotteriet starter: " + dateTime.ToString("HH:mm dd.MM.yy");
+        DescriptionTmp.GetComponent<TextMeshProUGUI>().text = "Beskrivelse: " + currentLottery.description;
+        NoOfDrawsTmp.GetComponent<TextMeshProUGUI>().text = "Antall trekninger: " + currentLottery.numberOfDraws;
+        NoOfTicketsTmp.GetComponent<TextMeshProUGUI>().text = "Antall samlet lodd: " + currentLottery.numberOfTickets;
+
+        foreach (var participant in currentLottery.participants)
+        {
+
+            var go = Instantiate(LotteryParticipantsTmp, LotteryParticipants.transform);
+            go.SetActive(true);
+            var goRectTransf = go.GetComponent<RectTransform>();
+            goRectTransf.localPosition = new Vector3(goRectTransf.localPosition.x, participantYOffset);
+            participantYOffset += (goRectTransf.rect.height * -1);
+            go.GetComponent<TextMeshProUGUI>().text = participant.name + ": " + participant.numberOfTickets + " lodd";
+
+        }
+
+        //If atleast on draw has already been started, list out the winners
+        if (!currentLottery.draws[0].started) return;
+        LotteryWinners.SetActive(true);
+
+        foreach (var draw in currentLottery.draws)
+        {
+            if (!draw.started) return;
+            var go = Instantiate(LotteryWinnersTmp, LotteryWinners.transform);
+            go.SetActive(true);
+            var goRectTransf = go.GetComponent<RectTransform>();
+            goRectTransf.localPosition = new Vector3(goRectTransf.localPosition.x, winnersYOffset);
+            winnersYOffset += (goRectTransf.rect.height * -1);
+            go.GetComponent<TextMeshProUGUI>().text = draw.winner;
+        }
+
+
+    }
+}
