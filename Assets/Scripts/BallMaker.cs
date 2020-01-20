@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Models;
 using UnityEngine;
@@ -41,7 +42,7 @@ public class BallMaker : MonoBehaviour
     private void GenerateParticipatingBalls()
     {
         var currentParticipant = _lottery.participants[_participatorCounter];
-        if (currentParticipant.numberOfTickets == _participatorTicketCounter)
+        if (Int32.Parse(currentParticipant.numberOfTickets) == _participatorTicketCounter)
         {
             _participatorCounter += 1;;
             _participatorTicketCounter = 0;

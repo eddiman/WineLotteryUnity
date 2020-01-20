@@ -43,26 +43,23 @@ namespace DefaultNamespace
             currentLottery = getCurrentLottery();
             if(currentLottery == null) return;
             // We can add default query string params for all requests
-            RequestHelper requestOptions = new RequestHelper {
-                Uri = BASE_PATH,
-                Headers = new Dictionary<string, string> {
-                    { "Authorization", "Bearer " + FirebaseSettings.idToken }
-                }
-            };
+            var uri = BASE_PATH + "/" + currentLottery.id;
+            LotterySerializer ls = new LotterySerializer();
+            var json = ls.SerializeLotteryToJson(currentLottery);
             currentRequest = new RequestHelper {
-                Uri = BASE_PATH + "/" +  currentLottery.id,
+                Uri = uri,
+                Method = "PATCH",
                 Headers = new Dictionary<string, string> {
                     { "Authorization", "Bearer " + FirebaseSettings.idToken }
                 },
-                BodyString = JsonConvert.SerializeObject(currentLottery)
-            };
-            RestClient.Post<Lottery>(currentRequest)
-                .Then(res => {
 
+                BodyString = json
+            };
+
+            RestClient.Request(currentRequest)
+                .Then(res => {
                     // And later we can clear the default query string params for all requests
                     RestClient.ClearDefaultParams();
-
-                    this.LogMessage("Success", JsonUtility.ToJson(res, true));
                 })
                 .Catch(err => this.LogMessage("Error", err.Message));
         }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
@@ -15,7 +16,7 @@ namespace Models
                 List<Draw> draws = new List<Draw>();
 
                 lottery.createdDate = rootObj.createTime;
-                lottery.dateTime = rootObj.updateTime;
+                lottery.dateTime = rootObj.fields.dateTime.timestampValue;
                 lottery.description = rootObj.fields.description.stringValue;
                 lottery.id = rootObj.fields.id.stringValue;
                 lottery.name = rootObj.fields.name.stringValue;
@@ -53,22 +54,22 @@ namespace Models
 
                 lottery.participants = participants;
                 lottery.draws = draws;
-                lottery.numberOfTickets = GetSumOfTickets(participants);
+                lottery.numberOfTickets = Int32.Parse(GetSumOfTickets(participants));
 
 
 
             return lottery;
         }
 
-        private int GetSumOfTickets(List<Participant> list)
+        private string GetSumOfTickets(List<Participant> list)
         {
             int tickets = 0;
             foreach (var participant in list)
             {
-                tickets += participant.numberOfTickets;
+                tickets += Int32.Parse(participant.numberOfTickets);
             }
 
-            return tickets;
+            return tickets.ToString();
         }
 
     }

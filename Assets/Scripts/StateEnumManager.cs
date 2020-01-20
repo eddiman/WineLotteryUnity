@@ -42,6 +42,8 @@ public class StateEnumManager : MonoBehaviour
     public StateEvent drawResettingState;
     [Header("Draw Resetting Finished")]
     public StateEvent drawResettingFinishedState;
+    [Header("Lottery Exiting")]
+    public StateEvent LotteryExiting;
 
     private string[] States =
     {
@@ -61,7 +63,8 @@ public class StateEnumManager : MonoBehaviour
         "BallNameReveal",
         "DrawFinished",
         "DrawResetting",
-        "DrawResettingFinished"
+        "DrawResettingFinished",
+        "LotteryExiting"
     };
 
     private void Start()
@@ -85,7 +88,8 @@ public class StateEnumManager : MonoBehaviour
                 {
                     case "IdTokenRetrieved":
                         idTokenRetrieved.Invoke(currentState);
-                        break;case "LoadingData":
+                        break;
+                    case "LoadingData":
                         loadingData.Invoke(currentState);
                         break;
                     case "LoadingDataFinished":
@@ -140,6 +144,10 @@ public class StateEnumManager : MonoBehaviour
                         break;
                     case "DrawResettingFinished":
                         drawResettingFinishedState.Invoke(currentState);
+
+                        break;
+                    case "LotteryExiting":
+                        LotteryExiting.Invoke(currentState);
 
                         break;
 

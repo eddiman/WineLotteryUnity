@@ -29,4 +29,20 @@ public class BallController : MonoBehaviour
 
         }
     }
+
+    public void clearAllBallTypes()
+    {
+        GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+
+        foreach (GameObject ball in balls)
+        {
+            Destroy(ball);
+        }
+
+        if (GameObject.FindWithTag("DrawBall"))
+        {
+            Destroy(GameObject.FindWithTag("DrawBall"));
+        }
+    }
+
 }

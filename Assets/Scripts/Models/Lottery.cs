@@ -19,7 +19,9 @@ namespace Models
         public string id;
 
         public string name;
+        public bool started;
 
+        public int currentDraw = 0;
         public int numberOfDraws;
         [SerializeField]
         public List<Participant> participants;

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using TMPro;
@@ -71,7 +72,7 @@ namespace Models
             int tickets = 0;
             foreach (var participant in list)
             {
-                tickets += participant.numberOfTickets;
+                tickets += Int32.Parse(participant.numberOfTickets);
             }
 
             return tickets;
@@ -153,7 +154,7 @@ public class CssLeft
 
 public class NumberOfTickets
 {
-    public int integerValue { get; set; }
+    public string integerValue { get; set; }
 }
 
 public class Fields3

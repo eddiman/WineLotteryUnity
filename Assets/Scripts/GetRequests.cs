@@ -74,7 +74,6 @@ public class GetRequests : MonoBehaviour
         Debug.Log(requestOptions);
 
         RestClient.Request(requestOptions).Then(response => {
-            Debug.Log(response);
 
             LotteryDeserializer l = new LotteryDeserializer();
 
