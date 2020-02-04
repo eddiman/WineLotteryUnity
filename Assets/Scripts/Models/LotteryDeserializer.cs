@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using UnityEngine;
 
 namespace Models
 {
@@ -52,7 +53,10 @@ namespace Models
                     }
                 }
 
-                lottery.participants = participants;
+
+                Debug.Log(participants);
+
+                lottery.participants = Shuffle(participants);
                 lottery.draws = draws;
                 lottery.numberOfTickets = Int32.Parse(GetSumOfTickets(participants));
 
@@ -60,7 +64,25 @@ namespace Models
 
             return lottery;
         }
+        public static List<Participant> Shuffle (List<Participant>aList) {
 
+            System.Random _random = new System.Random ();
+
+            Participant myGO;
+
+            int n = aList.Count;
+            for (int i = 0; i < n; i++)
+            {
+                // NextDouble returns a random number between 0 and 1.
+                // ... It is equivalent to Math.random() in Java.
+                int r = i + (int)(_random.NextDouble() * (n - i));
+                myGO = aList[r];
+                aList[r] = aList[i];
+                aList[i] = myGO;
+            }
+
+            return aList;
+        }
         private string GetSumOfTickets(List<Participant> list)
         {
             int tickets = 0;
