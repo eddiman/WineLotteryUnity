@@ -20,6 +20,7 @@ public class BallMaker : MonoBehaviour
 
     private int _participatorCounter = 0;
     private int _participatorTicketCounter = 0;
+
     private Lottery _lottery;
     // Start is called before the first frame update
 
@@ -42,15 +43,14 @@ public class BallMaker : MonoBehaviour
     private void GenerateParticipatingBalls()
     {
         var currentParticipant = _lottery.participants[_participatorCounter];
-        if (Int32.Parse(currentParticipant.numberOfTickets) == _participatorTicketCounter)
-        {
-            _participatorCounter += 1;;
-            _participatorTicketCounter = 0;
-        }
         if (amountCounter >= maxAmount)
         {
             onBallMaxAmount.Invoke();
             CancelInvoke();
+        } else if (Int32.Parse(currentParticipant.numberOfTickets) == _participatorTicketCounter)
+        {
+            _participatorCounter += 1;
+            _participatorTicketCounter = 0;
         }
         else
         {
@@ -58,6 +58,7 @@ public class BallMaker : MonoBehaviour
             _participatorTicketCounter += 1;
             var position = transform.position;
             var obj = Instantiate(ball, new Vector3(position.x, position.y, position.z), transform.rotation, transform);
+            obj.name = currentParticipant.name + "-" + _participatorTicketCounter;
             obj.GetComponent<BallScript>().SetParticipant(currentParticipant);
 
 
