@@ -64,7 +64,7 @@ namespace Models
 
             return lottery;
         }
-        public static List<Participant> Shuffle (List<Participant>aList) {
+        private static List<Participant> Shuffle (List<Participant>aList) {
 
             System.Random _random = new System.Random ();
 

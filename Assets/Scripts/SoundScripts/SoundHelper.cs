@@ -1,17 +1,28 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundHelper : MonoBehaviour
 {
+    private float initialVolume;
     public float fadeInTime = .2f;
     public float fadeOutTime = .2f;
+
+    private void Start()
+    {
+        initialVolume = GetComponent<AudioSource>().volume;
+    }
+
     public void PlayAudioSource() {
-        StartCoroutine(FadeInPlay(GetComponent<AudioSource>(), fadeInTime, GetComponent<AudioSource>().volume));
+        StartCoroutine(FadeInPlay(GetComponent<AudioSource>(), fadeInTime, initialVolume));
 
     }
     public void StopAudioSource() {
         StartCoroutine(FadeOutStop(GetComponent<AudioSource>(), fadeOutTime));
+    }
+    public void PauseAudioSource() {
+        StartCoroutine(FadeOutPause(GetComponent<AudioSource>(), fadeOutTime));
     }
 
 
@@ -29,9 +40,22 @@ public class SoundHelper : MonoBehaviour
         audioSource.Stop();
         audioSource.volume = startVolume;
     }
-    private static IEnumerator FadeInPlay(AudioSource audioSource, float FadeTime, float currentVolume)
+    private static IEnumerator FadeOutPause(AudioSource audioSource, float FadeTime)
     {
         float startVolume = audioSource.volume;
+        float adjustedVolume = startVolume;
+
+        while (audioSource.volume > 0)
+        {
+            adjustedVolume -= startVolume * Time.deltaTime / FadeTime;
+            audioSource.volume = adjustedVolume;
+            yield return null;
+        }
+        audioSource.Pause();
+    }
+    private static IEnumerator FadeInPlay(AudioSource audioSource, float FadeTime, float currentVolume)
+    {
+        float startVolume = currentVolume;
         audioSource.volume = 0;
         audioSource.Play();
         while (audioSource.volume < currentVolume)
