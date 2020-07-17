@@ -8,6 +8,7 @@ public class InfoLotteryUI : MonoBehaviour
 
     public GameObject lotteryController;
     public Lottery currentLottery;
+    public GameObject ScrollView;
     public GameObject StartTimeTmp;
     public GameObject DescriptionTmp;
     public GameObject NoOfDrawsTmp;
@@ -29,6 +30,10 @@ public class InfoLotteryUI : MonoBehaviour
         NoOfDrawsTmp.GetComponent<TextMeshProUGUI>().text = "Antall trekninger: " + currentLottery.numberOfDraws;
         NoOfTicketsTmp.GetComponent<TextMeshProUGUI>().text = "Antall samlet lodd: " + currentLottery.numberOfTickets;
 
+        //Adds height to the "Content" object of the crollview of the scroll view to display all participants
+        var contentViewRectTransform = ScrollView.transform.GetChild(0).Find("Content").GetComponent<RectTransform>();
+        var currentSizeDeltaHeight = contentViewRectTransform.sizeDelta.y;
+        contentViewRectTransform.sizeDelta = new Vector2(contentViewRectTransform.sizeDelta.x, currentSizeDeltaHeight + currentLottery.participants.Count * 50);
         foreach (var participant in currentLottery.participants)
         {
 

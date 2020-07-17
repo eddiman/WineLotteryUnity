@@ -54,7 +54,7 @@ namespace Models
                 }
 
 
-                Debug.Log(participants);
+
 
                 lottery.participants = Shuffle(participants);
                 lottery.draws = draws;
