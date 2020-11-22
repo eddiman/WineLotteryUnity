@@ -22,7 +22,7 @@ public class BallScript : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         List<Material> matList = new List<Material>();
         GetComponent<MeshRenderer>().GetMaterials(matList);
-        matList[1].color = getRandomColor();
+        matList[0].color = getRandomColor();
 
     }
 

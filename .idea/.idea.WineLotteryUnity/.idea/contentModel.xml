@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\EddiStat\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\EddiStat\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_WineLotteryUnity.-184920908.00" t="ExcludeRecursive" />
+    <e p="S:\UnityProjects\WineLotteryUnity" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Coffee" t="Include">
+          <e p="UIExtensions" t="Include">
+            <e p="UIEffect" t="Include">
+              <e p="ForTMPro" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="TMP_SDFShaderGUI.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="TMP_SDF (UIDissolve).shader" t="Include" />
+                  <e p="TMP_SDF (UIEffect).shader" t="Include" />
+                  <e p="TMP_SDF (UIHsvModifier).shader" t="Include" />
+                  <e p="TMP_SDF (UIShiny).shader" t="Include" />
+                  <e p="TMP_SDF (UITransition).shader" t="Include" />
+                  <e p="TMP_SDF-Mobile (UIDissolve).shader" t="Include" />
+                  <e p="TMP_SDF-Mobile (UIEffect).shader" t="Include" />
+                  <e p="TMP_SDF-Mobile (UIHsvModifier).shader" t="Include" />
+                  <e p="TMP_SDF-Mobile (UIShiny).shader" t="Include" />
+                  <e p="TMP_SDF-Mobile (UITransition).shader" t="Include" />
+                  <e p="TMP_Sprite (UIDissolve).shader" t="Include" />
+                  <e p="TMP_Sprite (UIEffect).shader" t="Include" />
+                  <e p="TMP_Sprite (UIHsvModifier).shader" t="Include" />
+                  <e p="TMP_Sprite (UIShiny).shader" t="Include" />
+                  <e p="TMP_Sprite (UITransition).shader" t="Include" />
+                  <e p="UI-Effect-TMPro.cginc" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Common" t="Include">
+                  <e p="BaseMeshEffect.cs" t="Include" />
+                  <e p="BlurMode.cs" t="Include" />
+                  <e p="ColorMode.cs" t="Include" />
+                  <e p="EffectArea.cs" t="Include" />
+                  <e p="EffectPlayer.cs" t="Include" />
+                  <e p="MaterialCache.cs" t="Include" />
+                  <e p="MaterialResolver.cs" t="Include" />
+                  <e p="Matrix2x3.cs" t="Include" />
+                  <e p="Packer.cs" t="Include" />
+                  <e p="ParameterTexture.cs" t="Include" />
+                  <e p="ShadowStyle.cs" t="Include" />
+                  <e p="ToneMode.cs" t="Include" />
+                  <e p="UIEffectBase.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="BaseMeshEffectEditor.cs" t="Include" />
+                  <e p="DeprecatedRemover.cs" t="Include" />
+                  <e p="UIDissolveEditor.cs" t="Include" />
+                  <e p="UIEffectCapturedImageEditor.cs" t="Include" />
+                  <e p="UIEffectEditor.cs" t="Include" />
+                  <e p="UIGradientEditor.cs" t="Include" />
+                  <e p="UIHsvModifierEditor.cs" t="Include" />
+                  <e p="UIShadowEditor.cs" t="Include" />
+                  <e p="UIShinyEditor.cs" t="Include" />
+                  <e p="UITransitionEffectEditor.cs" t="Include" />
+                </e>
+                <e p="UIDissolve.cs" t="Include" />
+                <e p="UIEffect.cs" t="Include" />
+                <e p="UIEffectCapturedImage.cs" t="Include" />
+                <e p="UIFlip.cs" t="Include" />
+                <e p="UIGradient.cs" t="Include" />
+                <e p="UIHsvModifier.cs" t="Include" />
+                <e p="UIShadow.cs" t="Include" />
+                <e p="UIShiny.cs" t="Include" />
+                <e p="UITransitionEffect.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="UI-Effect-Dissolve.shader" t="Include" />
+                <e p="UI-Effect-HSV.shader" t="Include" />
+                <e p="UI-Effect-Shiny.shader" t="Include" />
+                <e p="UI-Effect-Sprite.cginc" t="Include" />
+                <e p="UI-Effect-Transition.shader" t="Include" />
+                <e p="UI-Effect.cginc" t="Include" />
+                <e p="UI-Effect.shader" t="Include" />
+                <e p="UI-EffectCapture.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="CurvedTextMeshPro" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="TextProOnACircle.cs" t="Include" />
+            <e p="TextProOnACurve.cs" t="Include" />
+            <e p="TextProOnAExp.cs" t="Include" />
+            <e p="TextProOnASphere.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Editor" t="Include">
+          <e p="RenderCubemapWizard.cs" t="Include" />
+        </e>
+        <e p="JsonDotNet" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="WebSocket.cs" t="Include" />
+        </e>
+        <e p="RestClient" t="Include">
+          <e p="DemoScene" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="MainScript.cs" t="Include" />
+              <e p="Model" t="Include">
+                <e p="Photo.cs" t="Include" />
+                <e p="Post.cs" t="Include" />
+                <e p="Todo.cs" t="Include" />
+                <e p="User.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Packages" t="Include">
+            <e p="Proyecto26.RestClient" t="Include">
+              <e p="Helpers" t="Include">
+                <e p="Common.cs" t="Include" />
+                <e p="Extensions.cs" t="Include" />
+                <e p="HttpBase.cs" t="Include" />
+                <e p="JsonHelper.cs" t="Include" />
+                <e p="RequestException.cs" t="Include" />
+                <e p="RequestHelper.cs" t="Include" />
+                <e p="RequestHelperExtension.cs" t="Include" />
+                <e p="ResponseHelper.cs" t="Include" />
+                <e p="StaticCoroutine.cs" t="Include" />
+              </e>
+              <e p="RestClient.cs" t="Include" />
+              <e p="RestClientPromise.cs" t="Include" />
+            </e>
+            <e p="RSG.Promise" t="Include">
+              <e p="EnumerableExt.cs" t="Include" />
+              <e p="Exceptions" t="Include">
+                <e p="PromiseException.cs" t="Include" />
+                <e p="PromiseStateException.cs" t="Include" />
+              </e>
+              <e p="Promise.cs" t="Include" />
+              <e p="Promise_NonGeneric.cs" t="Include" />
+              <e p="PromiseHelpers.cs" t="Include" />
+              <e p="PromiseTimer.cs" t="Include" />
+              <e p="Tuple.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="BallController.cs" t="Include" />
+          <e p="BallMaker.cs" t="Include" />
+          <e p="BallScript.cs" t="Include" />
+          <e p="CameraTranslate.cs" t="Include" />
+          <e p="DeactivateChildren.cs" t="Include" />
+          <e p="DebugScript.cs" t="Include" />
+          <e p="Destroyer.cs" t="Include" />
+          <e p="GetBallOnTop.cs" t="Include" />
+          <e p="GetRequests.cs" t="Include" />
+          <e p="Helpers" t="Include">
+            <e p="Fading.cs" t="Include" />
+            <e p="FirebaseSettings.cs" t="Include" />
+            <e p="FirebaseSettingsRecipe.cs" t="Include" />
+            <e p="OpenLotteryHelper.cs" t="Include" />
+            <e p="SceneController.cs" t="Include" />
+            <e p="WebSocketSettings.cs" t="Include" />
+            <e p="WebSocketSettingsRecipe.cs" t="Include" />
+          </e>
+          <e p="KeyBoardEvent.cs" t="Include" />
+          <e p="LotteryController.cs" t="Include" />
+          <e p="Models" t="Include">
+            <e p="Draw.cs" t="Include" />
+            <e p="Lottery.cs" t="Include" />
+            <e p="LotteryDeserializer.cs" t="Include" />
+            <e p="LotteryList.cs" t="Include" />
+            <e p="LotteryListDeserializer.cs" t="Include" />
+            <e p="LotterySerializer.cs" t="Include" />
+            <e p="Participant.cs" t="Include" />
+            <e p="Ticket.cs" t="Include" />
+            <e p="Token.cs" t="Include" />
+          </e>
+          <e p="PostRequests.cs" t="Include" />
+          <e p="RotateDegrees.cs" t="Include" />
+          <e p="RotateTowardsObject.cs" t="Include" />
+          <e p="SceneReset.cs" t="Include" />
+          <e p="SetPosition.cs" t="Include" />
+          <e p="SoundScripts" t="Include">
+            <e p="SoundHelper.cs" t="Include" />
+          </e>
+          <e p="StateEnumManager.cs" t="Include" />
+          <e p="TimedEvent.cs" t="Include" />
+          <e p="TranslateFromToPoint.cs" t="Include" />
+          <e p="TriggerEvent.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="InfoLotteryUI.cs" t="Include" />
+            <e p="LotterySelectButton.cs" t="Include" />
+            <e p="LotterySelectManager.cs" t="Include" />
+          </e>
+          <e p="WebSocketHelper.cs" t="Include" />
+          <e p="WebSocketNative.cs" t="Include" />
+          <e p="WindArea.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="MaskedUIBlur.shader" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TextureMaker" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ITextureModule.cs" t="Include" />
+              <e p="IToolsModule.cs" t="Include" />
+              <e p="TextureMaker.cs" t="Include" />
+              <e p="TextureMakerEditor.cs" t="Include" />
+              <e p="TextureModule.cs" t="Include" />
+              <e p="ToolsModule.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="shader_rectangle.shader" t="Include" />
+          </e>
+        </e>
+        <e p="TextureSendReceiverCustom" t="Include">
+          <e p="Example" t="Include">
+            <e p="CameraSender.cs" t="Include" />
+            <e p="ExampleReceiver.cs" t="Include" />
+            <e p="VideoFileSender.cs" t="Include" />
+          </e>
+          <e p="NetworkTexture.cs" t="Include" />
+          <e p="Receiver" t="Include">
+            <e p="TextureReceiver.cs" t="Include" />
+          </e>
+          <e p="Sender" t="Include">
+            <e p="TextureSender.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="Loom.cs" t="Include" />
+            <e p="VideoManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextureSendRecieve" t="Include">
+          <e p="Example" t="Include">
+            <e p="CameraSender.cs" t="Include" />
+            <e p="ExampleReceiver.cs" t="Include" />
+            <e p="VideoFileSender.cs" t="Include" />
+          </e>
+          <e p="NetworkTexture.cs" t="Include" />
+          <e p="Receive" t="Include">
+            <e p="TextureReceiver.cs" t="Include" />
+          </e>
+          <e p="Sender" t="Include">
+            <e p="TextureSender.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="Loom.cs" t="Include" />
+            <e p="VideoManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UrbanNightSky" t="Include">
+          <e p="Readme.txt" t="Include" />
+        </e>
+        <e p="WebGLSupport" t="Include">
+          <e p="WebGLInput" t="Include">
+            <e p="WebGLInput.cs" t="Include" />
+            <e p="Wrapper" t="Include">
+              <e p="IInputField.cs" t="Include" />
+              <e p="WrappedInputField.cs" t="Include" />
+              <e p="WrappedTMPInputField.cs" t="Include" />
+            </e>
+          </e>
+          <e p="WebGLWindow" t="Include">
+            <e p="WebGLWindow.cs" t="Include" />
+          </e>
+        </e>
+        <e p="WorldSkies" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="LookCamera.cs" t="Include" />
+              <e p="SkyboxChanger.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="WineLotteryUnity.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

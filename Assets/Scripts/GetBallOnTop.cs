@@ -68,6 +68,7 @@ public class GetBallOnTop : MonoBehaviour
         _drawBall.transform.position = new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z);
         _drawBall.transform.name = "DrawBall";
         _drawBall.transform.tag = "DrawBall";
+        _drawBall.transform.Find("Name").gameObject.SetActive(true);
         GetComponent<Collider>().enabled = false;
 
 

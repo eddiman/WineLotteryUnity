@@ -26,6 +26,10 @@ public class BallMaker : MonoBehaviour
     private List<Ticket> allTickets;
     // Start is called before the first frame update
 
+    public void setNewBallType(Transform newBallPrefab)
+    {
+        ball = newBallPrefab.gameObject;
+    }
     public void StartBallMaking()
     {
         _lottery = LotteryController.GetComponent<LotteryController>().GetLottery();

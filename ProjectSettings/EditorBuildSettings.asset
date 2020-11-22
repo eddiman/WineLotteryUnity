@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/TextureSendReceiverCustom/Example/ExampleCameraSendReceive.unity
     guid: 1e03595fb45631f42b0601368dd417e0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StreamScene.unity
     guid: c6866c03520464d46a2a71e04dc83abd
   m_configObjects: {}
