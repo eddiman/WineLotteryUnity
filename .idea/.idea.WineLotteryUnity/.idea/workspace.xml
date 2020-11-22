@@ -2,1116 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cf208d2-b4e6-4c6f-97c2-0bde2440a0cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Coffee/UIExtensions/UIEffect/Materials/UI-Effect.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coffee/UIExtensions/UIEffect/Materials/UI-Effect.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Coffee/UIExtensions/UIEffect/UIEffect_Demo.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Coffee/UIExtensions/UIEffect/UIEffect_Demo_2018.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/BallMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BallMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WineLotteryUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WineLotteryUnity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Glass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TempIndoorMaterials/Carpet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TempIndoorMaterials/Carpet.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TempIndoorMaterials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TempIndoorMaterials/Floor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TempIndoorMaterials/LampMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TempIndoorMaterials/LampMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TempIndoorMaterials/SilverMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TempIndoorMaterials/SilverMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Vinkjeller/Hyllå.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Vinkjeller/Hyllå.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/gold.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/gold.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_BatchPrefabBakerEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_BatchPrefabBakerEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_BoneWeightCopierEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_BoneWeightCopierEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_DisableHiddenAnimationsEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_DisableHiddenAnimationsEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MBVersionConcreteEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MBVersionConcreteEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerEditorInternal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerEditorInternal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerEditorWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerEditorWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerGrouperEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerGrouperEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerSettingsAssetEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerSettingsAssetEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerSettingsEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MeshBakerSettingsEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MultiMeshBakerEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_MultiMeshBakerEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_SearchFilters.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_SearchFilters.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_TextureBakerEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_TextureBakerEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_TextureBakerEditorInternal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB3_TextureBakerEditorInternal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB_ReplacePrefabsInSceneEditorWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB_ReplacePrefabsInSceneEditorWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB_ReplacePrefabsSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB_ReplacePrefabsSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB_TextureBakerEditorConfigureMultiMaterials.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB_TextureBakerEditorConfigureMultiMaterials.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB_TextureBakerEditorConfigureTextureArrays.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MB_TextureBakerEditorConfigureTextureArrays.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MeshBakerEditor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/MeshBakerEditor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB3_BakeInPlace.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB3_BakeInPlace.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB3_MBVersionEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB3_MBVersionEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB3_MeshBakerEditorFunctions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB3_MeshBakerEditorFunctions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB3_TextureCombinerEditorFunctions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB3_TextureCombinerEditorFunctions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB_EditorUtil.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB_EditorUtil.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB_ReplacePrefabsInScene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/core/MB_ReplacePrefabsInScene.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/propertyDrawers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/propertyDrawers/MB3_ShaderTexturePropertyDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/propertyDrawers/MB3_ShaderTexturePropertyDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/propertyDrawers/MB_ConvertTextureArrayFormatWizard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/propertyDrawers/MB_ConvertTextureArrayFormatWizard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/propertyDrawers/MB_PrefabPairPropertyDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/propertyDrawers/MB_PrefabPairPropertyDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByAlreadyAdded.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByAlreadyAdded.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByEnabledDisabled.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByEnabledDisabled.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByLightmapIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByLightmapIndex.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByMaterial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByMaterial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByOutOfBoundsUVs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByOutOfBoundsUVs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByRenderType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByRenderType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByShader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByShader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByStandardShaderType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByStandardShaderType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByStatic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Editor/searchFilters/MB3_GroupByStatic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/firstFloorPlatform.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/firstFloorPlatform.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/impoundLot.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/impoundLot.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/impoundfence.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/impoundfence.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/lights.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/lights.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/mainLevelTexture.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/mainLevelTexture.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/palm 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/palm 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/platformOneDiffuse.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/platformOneDiffuse.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/tree.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Materials/tree.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/ConstructionDudeGreenPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/ConstructionDudeGreenPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/ConstructionDudeOrangePrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/ConstructionDudeOrangePrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials/Worker-09 - Default.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials/Worker-09 - Default.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials/constructor_done.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials/constructor_done.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials/worker 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials/worker 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials/worker.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Materials/worker.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Textures/worker2_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Textures/worker2_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Textures/worker_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Textures/worker_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Textures/worker_normals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Textures/worker_normals.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Worker.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/ConstructionDude/Worker.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/area-lambert1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/area-lambert1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/goober-goober_txt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/goober-goober_txt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/goober@idle-goober_txt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/goober@idle-goober_txt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/goober@jump-goober_txt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/goober@jump-goober_txt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/goober@walk-goober_txt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Materials/goober@walk-goober_txt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Take 001.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/Take 001.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/goober_rooT_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/goober_rooT_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/jump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/jump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/walk.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/FBX/walk.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/Materials/goober@walk-goober_txt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/Materials/goober@walk-goober_txt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/New Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/New Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/Textures/goober_UV.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/Textures/goober_UV.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/newGooberPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Goober Artwork/newGooberPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials/No Name.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials/No Name.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials/glasses-mat-_MainTex-atlas0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials/glasses-mat-_MainTex-atlas0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials/hatPrefab-mat-_MainTex-atlas0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials/hatPrefab-mat-_MainTex-atlas0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials/sword-mat-_MainTex-atlas0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Materials/sword-mat-_MainTex-atlas0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/PalmMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/PalmMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Submeshes3Cubes.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Submeshes3Cubes.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Submeshes4Cylinder.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Submeshes4Cylinder.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Submeshes4Spheres.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/Submeshes4Spheres.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/bigBridge.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/bigBridge.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/bigBridge_bigBridge_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/bigBridge_bigBridge_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/bigPlatform.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/bigPlatform.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/crate.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/crate.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/fence.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/fence.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/floatingPlatform.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/floatingPlatform.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/floatingPlatform_floatingPlatform_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/floatingPlatform_floatingPlatform_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/floatingPlatform_floatingPlatform_MB0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/floatingPlatform_floatingPlatform_MB0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/floatingPlatform_floatingPlatform_MB1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/floatingPlatform_floatingPlatform_MB1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glasses-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glasses-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glasses-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glasses-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glasses-mesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glasses-mesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glasses.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glasses.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glassesPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/glassesPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hat.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hat.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hatPrefab-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hatPrefab-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hatPrefab-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hatPrefab-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hatPrefab-mesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hatPrefab-mesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hatPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/hatPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/launchPad.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/launchPad.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/lightPost.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/lightPost.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/lightPost_lightPost_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/lightPost_lightPost_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/littleBridge.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/littleBridge.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/littleBridge_bridgeLights_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/littleBridge_bridgeLights_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/littleBridge_bridge_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/littleBridge_bridge_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/mediumPlatform.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/mediumPlatform.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/mediumPlatform_mediumPlatform_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/mediumPlatform_mediumPlatform_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/mediumPlatform_mediumPlatform_MB0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/mediumPlatform_mediumPlatform_MB0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cubes.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cubes.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cubes_MeshBaker0-mesh_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cubes_MeshBaker0-mesh_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cylinder.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cylinder.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cylinder_MeshBaker0-mesh_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cylinder_MeshBaker0-mesh_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cylinder_MeshBaker0-mesh_MB0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4Cylinder_MeshBaker0-mesh_MB0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4spheres.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4spheres.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4spheres_MeshBaker0-mesh_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4spheres_MeshBaker0-mesh_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4spheres_Sphere_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/meshWithSubmeshes4spheres_Sphere_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/palm.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/palm.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/palmPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/palmPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/platformWallJump.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/platformWallJump.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/stepPlatform.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/stepPlatform.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/stepPlatform_stepPlatform_MB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/stepPlatform_stepPlatform_MB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/sword-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/sword-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/sword-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/sword-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/sword-mesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/sword-mesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/sword.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/sword.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/swordPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/swordPrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/tree.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/tree.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/wallJumpShort.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/wallJumpShort.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/wallJumpSided.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/wallJumpSided.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/wallJumpTall.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/wallJumpTall.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/wrench.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/ModelPrefabs/wrench.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/firstFloorPlatform.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/firstFloorPlatform.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/firstFloorPlatformBump.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/firstFloorPlatformBump.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/firstFloorPlatformIllum.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/firstFloorPlatformIllum.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/impoundFence.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/impoundFence.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/impoundLot.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/impoundLot.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/impoundLotAO.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/impoundLotAO.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/lights.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/lights.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/lightsIllumination.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/lightsIllumination.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/mainLevelBump.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/mainLevelBump.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/mainLevelIllum.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/mainLevelIllum.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/mainLevelTexture.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/mainLevelTexture.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/palm.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/palm.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/platformOneBump.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/platformOneBump.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/platformOneDiffuse.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/platformOneDiffuse.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/platformOneIllum.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/platformOneIllum.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/tree.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Assets/Textures/tree.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BakeTexturesAtRuntime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BakeTexturesAtRuntime/BakeTexturesAtRuntime.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BakeTexturesAtRuntime/BakeTexturesAtRuntime.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/MB_BatchPrepareObjectsForDynamicBatchingDescription.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/MB_BatchPrepareObjectsForDynamicBatchingDescription.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__In.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__In/a.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__In/a.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__In/b.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__In/b.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__In/c.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__In/c.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/aa 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/aa 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/aa 2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/aa 2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/aa.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/aa.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/aa.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/aa.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/bb 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/bb 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/bb 2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/bb 2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/bb.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/bb.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/bb.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/bb.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/cc 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/cc 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/cc.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/cc.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/cc.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/__Out/cc.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/comb-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/comb-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/comb-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/comb-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/comb.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/BatchPrepareObjectsForDynamicBatching/comb.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/CharacterController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/CharacterController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/CharacterCustomization - Shortcut.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/CharacterCustomization - Shortcut.lnk.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/CreditForModel.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/CreditForModel.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/MB_SwapShirts.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/MB_SwapShirts.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/BareTorsoMat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/BareTorsoMat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/BareTorsoMat__Untitled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/BareTorsoMat__Untitled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/CombinedMat-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/CombinedMat-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/CombinedMat-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/CombinedMat-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/CombinedMat.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/CombinedMat.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/colour_ground_tex.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/colour_ground_tex.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/player1_Tex.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/player1_Tex.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/skin.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Materials/skin.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/BareArmLeft(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/BareArmLeft(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/BareArmRight(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/BareArmRight(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/BareArmRightDamaged(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/BareArmRightDamaged(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/BareTorso(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/BareTorso(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/CustomizedCharacter.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/CustomizedCharacter.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/HandL(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/HandL(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/HandR(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/HandR(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/Head(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/Head(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/Pants(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/Pants(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/SeamMesh(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/SeamMesh(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/ShirtArmLeft(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/ShirtArmLeft(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/ShirtArmRight(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/ShirtArmRight(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/ShirtTorso(Clone).Asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Output/ShirtTorso(Clone).Asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Textures/player1_Tex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Textures/player1_Tex.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Textures/skin.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/Textures/skin.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/blenderFile.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/paintwars_gameassets.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CharacterCustomization/paintwars_gameassets.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CustomizeCharacterGame.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CustomizeCharacterGame.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CustomizeCharacterSetup.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/CustomizeCharacterSetup.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/BrickSkirt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/BrickSkirt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Roof.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Roof.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Stucco.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Stucco.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Trunk.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Trunk.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Window.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Window.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Wood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/Wood.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/birch.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/Materials/birch.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Foliage-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Foliage-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Foliage.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Foliage.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-RoofBrick-_BumpMap-atlas1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-RoofBrick-_BumpMap-atlas1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-RoofBrick-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-RoofBrick-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-RoofBrick.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-RoofBrick.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Stuco-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Stuco-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Stuco.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Stuco.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Window.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Window.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Wood-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Wood-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Wood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult-Wood.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/ResultMaterials/TextureBakeResult.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/Bush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/Bush.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/Trunk.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/Trunk.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/Window.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/Window.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/birch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/birch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/birchBark.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/birchBark.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/birchBark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/birchBark.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/birchFoliage.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/birchFoliage.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick2_NRM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick2_NRM.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick_NRM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/brick_NRM.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/bush.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/bush.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/grass.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/grass.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/grass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/grass.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof2_NRM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof2_NRM.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof_NRM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/roof_NRM.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stucco.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stucco.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stuccobrown.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stuccobrown.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stuccobrown.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stuccobrown.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stuccoyellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stuccoyellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stuccoyellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/stuccoyellow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/wood1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/wood1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/wood1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/wood1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/wood2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/wood2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/wood2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/SourceMaterials/wood2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/house.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/MultipleMaterials/house.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/MB_PrepareObjectsForDynamicBatchingDescription.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/MB_PrepareObjectsForDynamicBatchingDescription.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/CombinedMaterial-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/CombinedMaterial-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/CombinedMaterial-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/CombinedMaterial-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/CombinedMaterial.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/CombinedMaterial.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Cube (Modified).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Cube (Modified).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Cube.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Cube.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Cylinder (Modified).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Cylinder (Modified).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Cylinder.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Cylinder.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Sphere (Modified).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Sphere (Modified).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Sphere.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/ModifiedPrefabs/Sphere.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/OriginalPrefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/OriginalPrefabs/Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/OriginalPrefabs/Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/OriginalPrefabs/Cylinder.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/OriginalPrefabs/Cylinder.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/OriginalPrefabs/Sphere.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/PrepareObjectsForDynamicBatching/OriginalPrefabs/Sphere.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms-mat-_BumpMap-atlas1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms-mat-_BumpMap-atlas1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms-mat-_Illum-atlas2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms-mat-_Illum-atlas2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/Platforms.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/trees-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/trees-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/trees-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/trees-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/trees.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Scene1Assets/trees.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBakeTexturesAtRuntime.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBakeTexturesAtRuntime.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasic.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasic.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/MaterialBakeResult-mat-_MainTex-atlas-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/MaterialBakeResult-mat-_MainTex-atlas-0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/MaterialBakeResult-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/MaterialBakeResult-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/MaterialBakeResult-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/MaterialBakeResult-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/MaterialBakeResult.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/MaterialBakeResult.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/Materials/maintex5.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/Materials/maintex5.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/Materials/maintex7.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/Materials/maintex7.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse4.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse4.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse5.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/TestDiffuse5.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/combinedMesh.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/combinedMesh.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/maintex5.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/maintex5.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/maintex6.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/maintex6.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/maintex7.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/maintex7.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/maintex8.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicAssets/maintex8.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/MeshAssignCustomizerPutSliceIdxInUV0_z.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/MeshAssignCustomizerPutSliceIdxInUV0_z.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult-mat0-_MainTex-texarray--DXT10.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult-mat0-_MainTex-texarray--DXT10.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult-mat0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult-mat0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult-mat1-_MainTex-texarray--DXT10.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult-mat1-_MainTex-texarray--DXT10.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult-mat1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult-mat1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrayAssets/TextureBakeResult.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrays.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneBasicTextureArrays.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/Cube1pf.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/Cube1pf.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/Cube2pf.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/Cube2pf.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/Cube3pf.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/Cube3pf.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/Cube4pf.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/Cube4pf.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/MB_DynamicAddDeleteExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/MB_DynamicAddDeleteExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/combinedMaterial-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/combinedMaterial-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/combinedMaterial.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/combinedMaterial.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/combinedMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddDelete/combinedMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddingDelete.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneDynamicAddingDelete.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneMultipleMaterials.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneMultipleMaterials.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample.Unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample.Unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial-mat-_BumpMap-atlas1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial-mat-_BumpMap-atlas1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/CombinedMeshMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/Cube1PF.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/Cube1PF.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/Cube2PF.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/Cube2PF.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/Cube3PF.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/Cube3PF.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/MB_Example.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/MB_Example.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/MB_ExampleMover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/MB_ExampleMover.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/MB_ExampleSkinnedMeshDescription.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/MB_ExampleSkinnedMeshDescription.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/SpherePF.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample/SpherePF.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample_SkinnedMesh.Unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SceneRuntimeExample_SkinnedMesh.Unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Shaders/UnlitTextureArrays.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/Shaders/UnlitTextureArrays.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/CombinedMaterial-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/CombinedMaterial-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/CombinedMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/CombinedMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/MB_SkinnedMeshSceneController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/MB_SkinnedMeshSceneController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/combinedMaterial-mat-_MainTex-atlas0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/combinedMaterial-mat-_MainTex-atlas0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/combinedMaterial-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/combinedMaterial-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/combinedMaterial.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/combinedMaterial.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/prefabedMeshbakerObj.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/prefabedMeshbakerObj.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/result-mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRenderer/result-mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRendererSetup.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SkinnedMeshRendererSetup.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SwitchBakedObjectsTexture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SwitchBakedObjectsTexture.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SwitchBakedObjectsTexture.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SwitchBakedObjectsTexture/MB_SwitchBakedObjectsTexture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Examples/SwitchBakedObjectsTexture/MB_SwitchBakedObjectsTexture.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/MeshBakerWorkingFolder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/MeshBakerWorkingFolder/DONT_DELETE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/MeshBakerWorkingFolder/DONT_DELETE.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/README.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Release Notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Release Notes.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Resources/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Resources/Shaders/AlbedoShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Resources/Shaders/AlbedoShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Resources/Shaders/NormalMapShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/Resources/Shaders/NormalMapShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs/API-3.25.0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs/API-3.25.0.zip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs/API-3.29.0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs/API-3.29.0.zip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs/Manual.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs/Manual.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs/Texture Arrays.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/docs/Texture Arrays.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/AssemblyInfo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/AssignToMeshCustomizers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/AssignToMeshCustomizers/CustomizerPutSliceIndexInUV0_z.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/AssignToMeshCustomizers/CustomizerPutSliceIndexInUV0_z.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB2_TextureBakeResults.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB2_TextureBakeResults.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB2_UpdateSkinnedMeshBoundsFromBones.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB2_UpdateSkinnedMeshBoundsFromBones.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB2_UpdateSkinnedMeshBoundsFromBounds.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB2_UpdateSkinnedMeshBoundsFromBounds.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_BatchPrefabBaker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_BatchPrefabBaker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_BoneWeightCopier.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_BoneWeightCopier.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_Comment.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_Comment.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_DisableHiddenAnimations.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_DisableHiddenAnimations.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MBVersionConcrete.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MBVersionConcrete.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MeshBaker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MeshBaker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MeshBakerCommon.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MeshBakerCommon.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MeshBakerGrouper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MeshBakerGrouper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MeshBakerRoot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MeshBakerRoot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MultiMeshBaker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_MultiMeshBaker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_TextureBaker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB3_TextureBaker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB_BlendShape2CombinedMap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB_BlendShape2CombinedMap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB_SerializableSourceBlendShape2CombinedMap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MB_SerializableSourceBlendShape2CombinedMap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MeshBakerCore.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/MeshBakerCore.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlender.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlender.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderFallback.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderFallback.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderLegacyBumpDiffuse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderLegacyBumpDiffuse.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderLegacyDiffuse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderLegacyDiffuse.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderMaterialPropertyCacheHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderMaterialPropertyCacheHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderStandardMetallic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderStandardMetallic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderStandardMetallicRoughness.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderStandardMetallicRoughness.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderStandardSpecular.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/TextureBlenders/TextureBlenderStandardSpecular.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB2_Core.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB2_Core.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB2_Log.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB2_Log.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB2_MBVersion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB2_MBVersion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_AgglomerativeClustering.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_AgglomerativeClustering.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_CopyBoneWeights.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_CopyBoneWeights.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_GrouperCluster.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_GrouperCluster.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombiner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombiner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombinerSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombinerSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombinerSimple.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombinerSimple.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombinerSimpleData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombinerSimpleData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombinerSimpleUVAdjusterAtlas.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MeshCombinerSimpleUVAdjusterAtlas.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MultiMeshCombiner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_MultiMeshCombiner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_PriorityQueue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_PriorityQueue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_UVTransform.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB3_UVTransform.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_DefaultMeshAssignCustomizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_DefaultMeshAssignCustomizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_IAssignToMeshCustomizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_IAssignToMeshCustomizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_IMeshBakerSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_IMeshBakerSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_TGAWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_TGAWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_Utility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/MB_Utility.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB2_TexturePacker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB2_TexturePacker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB2_TexturePackerHorizontalVert.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB2_TexturePackerHorizontalVert.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_AtlasPackerRenderTexture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_AtlasPackerRenderTexture.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_ITextureCombinerPacker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_ITextureCombinerPacker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombiner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombiner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerAtlasRect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerAtlasRect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerMerging.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerMerging.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerNonTextureProperties.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerNonTextureProperties.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerMeshBaker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerMeshBaker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerMeshBakerFast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerMeshBakerFast.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerMeshBakerHorizontalVertical.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerMeshBakerHorizontalVertical.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerOneTextureInAtlas.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerOneTextureInAtlas.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerUnity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPackerUnity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPipeline.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB3_TextureCombinerPipeline.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB_TextureArrays.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeshBaker/scripts/core/TextureCombiner/MB_TextureArrays.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sketchfab_2018_02_13_20_09_34.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Sketchfab_2018_02_13_20_09_34.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/apartment_iso3.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/apartment_iso3.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/apartment_iso3.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/apartment_iso3.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/apartment_iso3.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/apartment_iso3.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/kuchnia maping swiatlo.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/kuchnia maping swiatlo.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/lotto_ball.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/lotto_ball.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/lotto_ball.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/lotto_ball.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/switch.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/switch.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sphere.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SphereChristmas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SphereChristmas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/LightingData.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-13_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-13_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-13_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-13_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-13_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-13_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-14_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-14_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-14_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-14_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-14_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-14_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-15_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-15_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-15_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-15_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-15_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-15_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-16_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-16_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-16_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-16_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-16_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-16_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-17_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-17_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-17_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-17_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-17_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-17_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-18_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-18_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-18_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-18_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-18_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-18_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-19_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-19_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-19_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-19_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-19_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-19_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-20_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-20_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-20_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-20_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-20_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-20_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-21_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-21_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-21_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-21_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-21_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-21_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-22_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-22_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-22_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-22_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-22_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-22_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-23_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-23_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-23_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-23_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-23_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-23_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-24_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-24_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-24_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-24_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-24_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-24_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-25_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-25_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-25_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-25_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-25_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-25_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-26_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-26_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-26_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-26_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-26_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-26_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-27_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-27_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-27_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-27_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-27_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-27_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-28_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-28_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-28_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-28_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-28_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-28_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-29_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-29_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-29_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-29_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-29_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-29_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-30_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-30_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-30_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-30_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-30_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-30_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-31_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-31_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-31_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-31_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-31_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-31_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-32_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-32_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-32_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-32_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-32_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-32_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-33_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-33_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-33_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-33_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-33_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-33_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-34_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-34_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-34_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-34_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-34_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-34_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-35_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-35_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-35_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-35_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-35_comp_shadowmask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-35_comp_shadowmask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_shadowmask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_shadowmask.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BallMaker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetBallOnTop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetBallOnTop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helpers/FirebaseSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/FirebaseSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helpers/WebSocketSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Helpers/WebSocketSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-10_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-11_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-12_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-2_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-3_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-4_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-5_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-6_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-7_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-8_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene/Lightmap-9_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterSceneSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterSceneSettings.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StarterScene_Profiles/MainCamera Profile 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StarterScene_Profiles/MainCamera Profile 2.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLSupport/WebGLInput/WebGLInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLSupport/WebGLInput/WebGLInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WebGLTemplates/WineTemplate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WebGLTemplates/WineTemplate/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/Build/UnityLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/Build/VinLotteri.data.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/Build/VinLotteri.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/Build/VinLotteri.wasm.code.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/Build/VinLotteri.wasm.framework.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/UnityProgress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/progressEmpty.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/progressEmpty.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/progressFull.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/progressFull.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/progressLogo.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/progressLogo.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/TemplateData/webgl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinLotteri/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/VinLotteri/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1122,60 +120,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Models/LotteryListDeserializer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <marker date="1605877206682" expanded="false" signature="6:102" ph="..." />
-                <marker date="1605877206682" expanded="true" signature="120:5230" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="163:2742" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="234:2453" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="435:2410" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="1112:1616" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="1207:1598" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="1302:1531" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="1669:2187" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="1778:2169" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="1884:2095" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="2514:2735" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="2599:2696" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="2769:2816" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="2837:2885" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="2907:2991" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3014:3058" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3078:3125" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3150:3198" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3218:3269" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3290:3338" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3357:3405" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3422:3470" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3493:3544" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3565:3614" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3634:3682" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3704:3753" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3783:3832" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="3854:4031" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4055:4099" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4120:4168" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4194:4243" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4270:4322" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4350:4396" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4422:4473" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4499:4547" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4568:4959" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="4982:5148" ph="{...}" />
-                <marker date="1605877206682" expanded="true" signature="5173:5227" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Models/LotteryDeserializer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state>
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <marker date="1605877206681" expanded="false" signature="6:89" ph="..." />
                 <marker date="1605877206681" expanded="true" signature="107:3261" ph="{...}" />
@@ -1285,11 +233,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallMaker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="624">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <marker date="1606064838331" expanded="true" signature="6:132" ph="..." />
                 <marker date="1606064838331" expanded="true" signature="172:4244" ph="{...}" />
@@ -1313,6 +261,59 @@
                 <marker date="1606064838331" expanded="true" signature="3766:4242" ph="{...}" />
                 <marker date="1606064838331" expanded="true" signature="3910:4213" ph="{...}" />
                 <marker date="1606064838331" expanded="true" signature="3933:4049" ph="/* NextDouble returns a random number between 0 and 1. ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/WebGLSupport/WebGLInput/WebGLInput.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-61">
+              <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+              <folding>
+                <marker date="1606079408647" expanded="false" signature="66:240" ph="..." />
+                <marker date="1606079408647" expanded="true" signature="264:12954" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="293:3451" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="3521:12952" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="3698:3974" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="4092:4452" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="4482:4646" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="4655:4759" ph="/// 対象が選択されたとき ... " />
+                <marker date="1606079408647" expanded="true" signature="4817:6378" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="5030:5223" ph="/* var y = (int)(Screen.height - (rect.y + rect.height)); ... */" />
+                <marker date="1606079408647" expanded="true" signature="6198:6314" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="6407:6457" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="6467:6606" ph="/// 画面内の描画範囲を取得する ... " />
+                <marker date="1606079408647" expanded="true" signature="6665:7816" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="7047:7267" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="7123:7253" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="7460:7732" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="7853:8096" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="8184:8312" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="8399:8578" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="8618:9012" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="9128:10048" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="9328:9401" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="9547:9735" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="9636:9721" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="9856:10038" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="10159:10304" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="10216:10294" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="10405:10485" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="10508:11495" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="10648:10704" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="10753:10868" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="11109:11244" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="11261:11396" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="11527:11589" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="11622:11687" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="11734:12034" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="12044:12147" ph="/// to manage tab focus ... " />
+                <marker date="1606079408647" expanded="true" signature="12187:12946" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="12320:12414" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="12471:12537" ph="{...}" />
+                <marker date="1606079408647" expanded="true" signature="12604:12936" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -1356,22 +357,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>chil</find>
+      <find>container</find>
+      <find>UNITY_2019_1_OR_NEWER</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WebGLSupport/WebGLInput/WebGLInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/Draw.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/LotteryDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeactivateChildren.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PostRequests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetBallOnTop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/WebSocketSettingsRecipe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/LotteryListDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/LotterySerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/Participant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/LotteryDeserializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeactivateChildren.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PostRequests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helpers/FirebaseSettingsRecipe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Models/Participant.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -1382,6 +391,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GetBallOnTop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeactivateChildren.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallMaker.cs" />
+        <option value="$PROJECT_DIR$/Assets/WebGLSupport/WebGLInput/WebGLInput.cs" />
       </list>
     </option>
   </component>
@@ -1394,9 +404,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="32" />
-    <option name="width" value="2576" />
+    <option name="x" value="726" />
+    <option name="y" value="-28" />
+    <option name="width" value="1917" />
     <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -1476,12 +486,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605879264674</updated>
-      <workItem from="1605879270981" duration="5207000" />
+      <workItem from="1605879270981" duration="6634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5207000" />
+    <option name="totallyTimeSpent" value="6634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1613,30 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Models/LotteryDeserializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <marker date="1605877206681" expanded="false" signature="6:89" ph="..." />
-            <marker date="1605877206681" expanded="true" signature="107:3261" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="146:3258" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="207:2344" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="1025:1533" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="1124:1515" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="1219:1448" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="1590:2112" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="1703:2094" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="1809:2020" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="2419:2956" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="2584:2919" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="2615:2735" ph="/* NextDouble returns a random number between 0 and 1. ... */" />
-            <marker date="1605877206681" expanded="true" signature="3019:3251" ph="{...}" />
-            <marker date="1605877206681" expanded="true" signature="3104:3201" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Models/Draw.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1749,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BallMaker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="624">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <marker date="1606064838331" expanded="true" signature="6:132" ph="..." />
             <marker date="1606064838331" expanded="true" signature="172:4244" ph="{...}" />
@@ -1774,6 +760,81 @@
             <marker date="1606064838331" expanded="true" signature="3766:4242" ph="{...}" />
             <marker date="1606064838331" expanded="true" signature="3910:4213" ph="{...}" />
             <marker date="1606064838331" expanded="true" signature="3933:4049" ph="/* NextDouble returns a random number between 0 and 1. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Models/LotteryDeserializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1605877206681" expanded="false" signature="6:89" ph="..." />
+            <marker date="1605877206681" expanded="true" signature="107:3261" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="146:3258" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="207:2344" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="1025:1533" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="1124:1515" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="1219:1448" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="1590:2112" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="1703:2094" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="1809:2020" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="2419:2956" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="2584:2919" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="2615:2735" ph="/* NextDouble returns a random number between 0 and 1. ... */" />
+            <marker date="1605877206681" expanded="true" signature="3019:3251" ph="{...}" />
+            <marker date="1605877206681" expanded="true" signature="3104:3201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WebGLSupport/WebGLInput/WebGLInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+          <folding>
+            <marker date="1606079408647" expanded="false" signature="66:240" ph="..." />
+            <marker date="1606079408647" expanded="true" signature="264:12954" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="293:3451" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="3521:12952" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="3698:3974" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="4092:4452" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="4482:4646" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="4655:4759" ph="/// 対象が選択されたとき ... " />
+            <marker date="1606079408647" expanded="true" signature="4817:6378" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="5030:5223" ph="/* var y = (int)(Screen.height - (rect.y + rect.height)); ... */" />
+            <marker date="1606079408647" expanded="true" signature="6198:6314" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="6407:6457" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="6467:6606" ph="/// 画面内の描画範囲を取得する ... " />
+            <marker date="1606079408647" expanded="true" signature="6665:7816" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="7047:7267" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="7123:7253" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="7460:7732" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="7853:8096" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="8184:8312" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="8399:8578" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="8618:9012" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="9128:10048" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="9328:9401" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="9547:9735" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="9636:9721" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="9856:10038" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="10159:10304" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="10216:10294" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="10405:10485" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="10508:11495" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="10648:10704" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="10753:10868" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="11109:11244" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="11261:11396" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="11527:11589" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="11622:11687" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="11734:12034" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="12044:12147" ph="/// to manage tab focus ... " />
+            <marker date="1606079408647" expanded="true" signature="12187:12946" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="12320:12414" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="12471:12537" ph="{...}" />
+            <marker date="1606079408647" expanded="true" signature="12604:12936" ph="{...}" />
           </folding>
         </state>
       </provider>

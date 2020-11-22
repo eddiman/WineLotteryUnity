@@ -35,7 +35,7 @@ namespace WebGLSupport
 
         [DllImport("__Internal")]
         public static extern void WebGLInputOnValueChange(int id, Action<int, string> cb);
-        
+
         [DllImport("__Internal")]
         public static extern void WebGLInputOnEditEnd(int id, Action<int, string> cb);
 
@@ -91,7 +91,9 @@ namespace WebGLSupport
         static WebGLInput()
         {
 #if UNITY_2019_1_OR_NEWER
-            WebGLInput.CanvasId = "unityContainer";
+            //for 2020 nre WebGL template fuckup
+            WebGLInput.CanvasId = "unity-container";
+            //for 2019: WebGLInput.CanvasId = "unityContainer";
 #else
             WebGLInput.CanvasId = "gameContainer";
 #endif
@@ -239,7 +241,7 @@ namespace WebGLSupport
             {
                 instance.input.text = value;
             }
-            
+
 
             // InputField.ContentType.Name が Name の場合、先頭文字が強制的大文字になるため小文字にして比べる
             if (instance.input.contentType == ContentType.Name)
