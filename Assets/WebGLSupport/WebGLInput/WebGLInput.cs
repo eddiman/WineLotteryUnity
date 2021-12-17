@@ -14,6 +14,7 @@ namespace WebGLSupport
 {
     class WebGLInputPlugin
     {
+
 #if UNITY_WEBGL && !UNITY_EDITOR
         [DllImport("__Internal")]
         public static extern int WebGLInputCreate(string canvasId, int x, int y, int width, int height, int fontsize, string text, bool isMultiLine, bool isPassword);
@@ -85,6 +86,8 @@ namespace WebGLSupport
 
     public class WebGLInput : MonoBehaviour, IComparable<WebGLInput>
     {
+        public string unityContainerName;
+
         static Dictionary<int, WebGLInput> instances = new Dictionary<int, WebGLInput>();
         public static string CanvasId { get; set; }
 
@@ -92,7 +95,7 @@ namespace WebGLSupport
         {
 #if UNITY_2019_1_OR_NEWER
             //for 2020 nre WebGL template fuckup
-            WebGLInput.CanvasId = "unity-container";
+            WebGLInput.CanvasId = "gameContainer";
             //for 2019: WebGLInput.CanvasId = "unityContainer";
 #else
             WebGLInput.CanvasId = "gameContainer";
